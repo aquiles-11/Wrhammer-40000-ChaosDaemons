@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Beast of Nurgle -->
+    <!-- Beast of Nurgle Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BeastOfNurgleTail</defName>
+        <label>Beast of Nurgle tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+            <graphicPath>Things/Pawn/Humanlike/Nurgle/BeastOfNurgle/BodyAttachments/Tail/BeastOfNurgleTail</graphicPath>
+            <colorType>Skin</colorType>
+        </graphicData>
+    </GeneDef>
+    <!-- Beast of Nurgle Head 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BeastOfNurgleHeadOne</defName>
+        <label>Beast of Nurgle head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_BeastOfNurgleHeadOne</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Beast of Nurgle Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BeastOfNurgleHornsOne</defName>
+        <label>Beast of Nurgle horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>33</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Nurgle/BeastOfNurgle/HeadAttachments/Horns/BeastOfNurgleHorns1</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Beast of Nurgle Mutation-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BeastOfNurgleMutation</defName>
+        <label>Beast of Nurgle Mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>34</displayOrderInCategory>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(1.6, 1.6)</bodyScaleFactor>
+                <headScaleFactor>(1.6, 1.6)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

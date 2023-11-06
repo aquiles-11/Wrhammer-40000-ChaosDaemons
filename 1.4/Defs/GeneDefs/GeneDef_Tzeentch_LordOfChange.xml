@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Lord of Change -->
+    <!-- Lord of Change Body -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeBody</defName>
+        <label>Lord of Change body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>61</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <graphicData>
+            <fur>BEWH_LordOfChangeBody</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Lord of Change Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeHead</defName>
+        <label>Lord of Change head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>62</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_LordOfChangeHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Lord of Change Wings -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeWings</defName>
+        <label>LordOfChange wings</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>63</displayOrderInCategory>
+        <exclusionTags>
+            <li>Wing</li>
+            <li>Wings</li>
+        </exclusionTags>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+            <drawScale>3.5</drawScale>
+            <graphicPath>Things/Pawn/Humanlike/Tzeentch/LordOfChange/BodyAttachments/Wings/LordOfChangeWings</graphicPath>
+            <colorType>Skin</colorType>
+            <drawOffsetNorth>(0, 0, 0.6)</drawOffsetNorth>
+            <drawOffsetSouth>(0, 0, 0.6)</drawOffsetSouth>
+            <drawOffsetEast>(0, 0, 0.6)</drawOffsetEast>
+        </graphicData>
+    </GeneDef>
+    <!-- Lord of Change Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeMutation</defName>
+        <label>Lord of Change mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>64</displayOrderInCategory>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(1.4, 1.4)</bodyScaleFactor>
+                <headScaleFactor>(1.4, 1.4)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

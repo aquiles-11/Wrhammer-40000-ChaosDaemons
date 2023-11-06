@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Bloodthirster -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonBloodthirster</defName>
+        <label>Bloodthirster</label>
+        <description>???</description>
+        <descriptionShort>???</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_BloodthirsterBody</li>
+            <li>BEWH_BloodthirsterHead</li>
+            <li>BEWH_BloodthirsterWings</li>
+            <li>BEWH_BloodthirsterHorns</li>
+            <li>BEWH_BloodthirsterBeard</li>
+            <li>BEWH_BloodthirsterTail</li>
+            <li>BEWH_BloodthirsterMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

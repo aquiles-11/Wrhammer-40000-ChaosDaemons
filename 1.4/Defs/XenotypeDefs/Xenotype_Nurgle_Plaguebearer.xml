@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Plaguebearer -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonPlaguebearer</defName>
+        <label>Plaguebearer</label>
+        <description>???</description>
+        <descriptionShort>???</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_PlaguebearerBody</li>
+            <li>BEWH_PlaguebearerHead</li>
+            <li>BEWH_PlaguebearerHornsOne</li>
+            <li>BEWH_PlaguebearerHornsTwo</li>
+            <li>BEWH_PlaguebearerMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

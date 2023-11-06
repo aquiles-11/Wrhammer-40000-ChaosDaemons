@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FurDef>
+        <defName>BEWH_DaemonetteBody</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+          <Male>Things/Pawn/Humanlike/Slaanesh/Daemonette/Bodies/DaemonetteBody</Male>
+          <Female>Things/Pawn/Humanlike/Slaanesh/Daemonette/Bodies/DaemonetteBody</Female>
+          <Hulk>Things/Pawn/Humanlike/Slaanesh/Daemonette/Bodies/DaemonetteBody</Hulk>
+          <Fat>Things/Pawn/Humanlike/Slaanesh/Daemonette/Bodies/DaemonetteBody</Fat>
+          <Thin>Things/Pawn/Humanlike/Slaanesh/Daemonette/Bodies/DaemonetteBody</Thin>
+          <Child>Things/Pawn/Humanlike/Slaanesh/Daemonette/Bodies/DaemonetteBody</Child>
+          <Baby>Things/Pawn/Humanlike/Slaanesh/Daemonette/Bodies/DaemonetteBody</Baby>
+        </bodyTypeGraphicPaths>
+      </FurDef>
+
+</Defs>

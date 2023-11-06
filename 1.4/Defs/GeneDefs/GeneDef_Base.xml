@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Gene Category -->
+
+    <GeneCategoryDef>
+        <defName>BEWH_ChaosDaemon</defName>
+        <label>chaos daemon</label>
+        <displayPriorityInXenotype>640</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <!-- Parent Gene -->
+
+    <GeneDef Name="ChaosDaemonParent" Abstract="True">
+        <displayCategory>BEWH_ChaosDaemon</displayCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    </GeneDef>
+
+</Defs>

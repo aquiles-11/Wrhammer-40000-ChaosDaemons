@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Plaguebearer -->
+    <!-- Plaguebearer Body -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerBody</defName>
+        <label>Plaguebearer body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>81</displayOrderInCategory>
+        <bodyType>Standard</bodyType>
+        <graphicData>
+            <fur>BEWH_PlaguebearerBody</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Plaguebearer Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerHead</defName>
+        <label>Plaguebearer head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>82</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_PlaguebearerHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Plaguebearer Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerHornsOne</defName>
+        <label>Plaguebearer horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>83</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Nurgle/Plaguebearer/HeadAttachments/Horns/PlaguebearerHorns1</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Plaguebearer Horns 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerHornsTwo</defName>
+        <label>Plaguebearer horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>84</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Nurgle/Plaguebearer/HeadAttachments/Horns/PlaguebearerHorns2</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Plaguebearer Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerMutation</defName>
+        <label>Plaguebearer mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>85</displayOrderInCategory>
+    </GeneDef>
+
+</Defs>

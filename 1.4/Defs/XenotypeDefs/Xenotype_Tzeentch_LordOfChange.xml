@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Lord of Change -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonLordOfChange</defName>
+        <label>Lord of Change</label>
+        <description>???</description>
+        <descriptionShort>???</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_LordOfChangeBody</li>
+            <li>BEWH_LordOfChangeHead</li>
+            <li>BEWH_LordOfChangeWings</li>
+            <li>BEWH_LordOfChangeMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

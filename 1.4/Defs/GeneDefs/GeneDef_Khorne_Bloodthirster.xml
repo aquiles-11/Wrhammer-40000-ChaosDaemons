@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Bloodthirster -->
+    <!-- Bloodthirster Body -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterBody</defName>
+        <label>Bloodthirster body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <graphicData>
+            <fur>BEWH_BloodthirsterBody</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Bloodthirster Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterHead</defName>
+        <label>Bloodthirster head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_BloodthirsterHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Bloodthirster Wings -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterWings</defName>
+        <label>Bloodthirster wings</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Wing</li>
+            <li>Wings</li>
+        </exclusionTags>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+            <drawScale>4</drawScale>
+            <graphicPath>Things/Pawn/Humanlike/Khorne/Bloodthirster/BodyAttachments/Wings/BloodthirsterWings</graphicPath>
+            <colorType>Skin</colorType>
+            <drawOffsetNorth>(0, 0, 0.55)</drawOffsetNorth>
+            <drawOffsetSouth>(0, 0, 0.55)</drawOffsetSouth>
+            <drawOffsetEast>(0, 0, 0.55)</drawOffsetEast>
+        </graphicData>
+    </GeneDef>
+    <!-- Bloodthirster Horns -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterHorns</defName>
+        <label>Bloodthirster horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Khorne/Bloodthirster/HeadAttachments/Horns/BloodthirsterHorns</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Bloodthirster Beard -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterBeard</defName>
+        <label>Bloodthirster beard</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Khorne/Bloodthirster/HeadAttachments/Beard/BloodthirsterBeard</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Bloodthirster Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterTail</defName>
+        <label>Bloodthirster tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>6</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+            <graphicPath>Things/Pawn/Humanlike/Khorne/Bloodthirster/BodyAttachments/Tail/BloodthirsterTail</graphicPath>
+            <colorType>Skin</colorType>
+        </graphicData>
+    </GeneDef>
+    <!-- Bloodthirster Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterMutation</defName>
+        <label>Bloodthirster mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>7</displayOrderInCategory>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(1.7, 1.7)</bodyScaleFactor>
+                <headScaleFactor>(1.7, 1.7)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

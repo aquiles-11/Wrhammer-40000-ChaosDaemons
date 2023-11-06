@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Lord of Change -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonDaemonette</defName>
+        <label>Daemonette</label>
+        <description>???</description>
+        <descriptionShort>???</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_DaemonetteBody</li>
+            <li>BEWH_DaemonetteHead</li>
+            <li>BEWH_DaemonetteEars</li>
+            <li>BEWH_DaemonetteClaw</li>
+            <li>BEWH_DaemonetteTail</li>
+            <li>BEWH_DaemonetteHornsOne</li>
+            <li>BEWH_DaemonetteHornsTwo</li>
+            <li>BEWH_DaemonetteHornsThree</li>
+            <li>BEWH_DaemonetteHornsFour</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

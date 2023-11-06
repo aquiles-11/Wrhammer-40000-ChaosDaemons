@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Beast of Nurgle -->
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_BeastOfNurgleHeadOne</defName>
+        <graphicPath>Things/Pawn/Humanlike/Nurgle/BeastOfNurgle/Heads/BeastOfNurgleHead1</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_BeastOfNurgleHeadOne</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+    </HeadTypeDef>
+
+</Defs>

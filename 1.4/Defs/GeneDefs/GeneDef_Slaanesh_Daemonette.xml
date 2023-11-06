@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Daemonette -->
+    <!-- Daemonette Body -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteBody</defName>
+        <label>Daemonette body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>41</displayOrderInCategory>
+        <bodyType>Standard</bodyType>
+        <graphicData>
+            <fur>BEWH_DaemonetteBody</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+                <forceFemale>true</forceFemale>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Daemonette Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteHead</defName>
+        <label>Daemonette head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>42</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_DaemonetteHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Daemonette Ears -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteEars</defName>
+        <label>Daemonette ears</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>43</displayOrderInCategory>
+        <exclusionTags>
+            <li>Ear</li>
+            <li>Ears</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Ears/DaemonetteEars</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Daemonette Claw -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteClaw</defName>
+        <label>Daemonette claw</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>44</displayOrderInCategory>
+        <exclusionTags>
+            <li>Claw</li>
+        </exclusionTags>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+            <drawScale>0.8</drawScale>
+            <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/BodyAttachments/Claw/DaemonetteClaw</graphicPath>
+            <drawOffsetNorth>(0.37, 1, -0.2)</drawOffsetNorth>
+            <drawOffsetSouth>(0.37, 1, -0.2)</drawOffsetSouth>
+            <drawOffsetEast>(0.37, 1, -0.2)</drawOffsetEast>
+        </graphicData>
+    </GeneDef>
+    <!-- Daemonette Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteTail</defName>
+        <label>Daemonette tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>45</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+            <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/BodyAttachments/Tail/DaemonetteTail</graphicPath>
+            <colorType>Skin</colorType>
+        </graphicData>
+    </GeneDef>
+    <!-- Daemonette Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteHornsOne</defName>
+        <label>Daemonette horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>46</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns1</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Daemonette Horns 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteHornsTwo</defName>
+        <label>Daemonette horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>47</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns2</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Daemonette Horns 3 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteHornsThree</defName>
+        <label>Daemonette horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>48</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns3</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Daemonette Horns 4 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteHornsFour</defName>
+        <label>Daemonette horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>49</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns4</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef Name="BEWH_ChaosDaemonBase" Abstract="True">
+        <inheritable>false</inheritable>
+        <canGenerateAsCombatant>true</canGenerateAsCombatant>
+        <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    </XenotypeDef>
+
+</Defs>

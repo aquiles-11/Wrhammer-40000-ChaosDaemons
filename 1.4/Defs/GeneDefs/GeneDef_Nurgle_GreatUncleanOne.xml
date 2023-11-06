@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Great Unclean One -->
+    <!-- Great Unclean One Head 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneHeadOne</defName>
+        <label>Great Unclean One head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>24</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_GreatUncleanOneHeadOne</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Great Unclean One Head 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneHeadTwo</defName>
+        <label>Great Unclean One head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>25</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_GreatUncleanOneHeadTwo</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Great Unclean One Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneHornsOne</defName>
+        <label>Great Unclean One horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>26</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/HeadAttachments/Horns/GreatUncleanOneHorns1</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Great Unclean One Horns 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneHornsTwo</defName>
+        <label>Great Unclean One horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>27</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/HeadAttachments/Horns/GreatUncleanOneHorns2</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Great Unclean One Mutation-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneMutation</defName>
+        <label>Great Unclean One Mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>28</displayOrderInCategory>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(2.5, 2.5)</bodyScaleFactor>
+                <headScaleFactor>(2.5, 2.5)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

@@ -9,12 +9,22 @@
 	<description>
 		Warhammer 40.000 - Chaos Daemons
 	</description>
-	<!--<modDependencies>
+	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
 		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+		<!--<li>
 			<packageId>Phonicmas.40kCore</packageId>
 			<displayName>Warhammer 40k - Core</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3025477432</steamWorkshopUrl>
@@ -23,8 +33,8 @@
 			<packageId>Phonicmas.40kGenes</packageId>
 			<displayName>Warhammer 40k - Genes</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3025485862</steamWorkshopUrl>
-		</li>
-	</modDependencies>-->
+		</li>-->
+	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Biotech</li>

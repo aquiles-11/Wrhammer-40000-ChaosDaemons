@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_DaemonetteHead</defName>
+        <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/Heads/DaemonetteHead_Normal</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_DaemonetteHead</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+    </HeadTypeDef>
+
+</Defs>

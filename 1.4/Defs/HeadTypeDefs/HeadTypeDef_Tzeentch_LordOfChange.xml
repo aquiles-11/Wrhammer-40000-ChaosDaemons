@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_LordOfChangeHead</defName>
+        <graphicPath>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Heads/LordOfChangeHead_Normal</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_LordOfChangeHead</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+    </HeadTypeDef>
+
+</Defs>
