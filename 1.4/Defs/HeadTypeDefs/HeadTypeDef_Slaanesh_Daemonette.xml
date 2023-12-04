@@ -3,7 +3,7 @@
 
     <HeadTypeDef ParentName="AverageBase">
         <defName>BEWH_DaemonetteHead</defName>
-        <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/Heads/DaemonetteHead_Normal</graphicPath>
+        <graphicPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/Heads/DaemonetteHead</graphicPath>
         <randomChosen>false</randomChosen>
         <gender>None</gender>
         <requiredGenes>

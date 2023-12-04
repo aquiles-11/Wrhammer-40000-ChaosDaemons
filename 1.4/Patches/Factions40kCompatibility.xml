@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Warhammer 40.000 - Factions</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/FactionDef[defName = "BEWH_ChaosFactionHidden"]/requiredCountAtGameStart</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/FactionDef[defName = "BEWH_ChaosFactionHidden"]/maxCountAtGameStart</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/FactionDef[defName = "BEWH_ChaosFactionHidden"]/maxConfigurableAtWorldCreation</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/FactionDef[defName = "BEWH_ChaosFactionHidden"]</xpath>
+                    <value>
+                        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+                        <maxCountAtGameStart>1</maxCountAtGameStart>
+                        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+                    </value>
+                </li>
+
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <operations>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/FactionDef[defName = "BEWH_ChaosFactionHidden"]/xenotypeSet/xenotypeChances</xpath>
+                <value>
+                    <!-- Khorne -->
+                    <BEWH_ChaosDaemonBloodletter>0.2</BEWH_ChaosDaemonBloodletter>
+                    <BEWH_ChaosDaemonBloodthirster>0.1</BEWH_ChaosDaemonBloodthirster>
+                    <!-- Nurgle -->
+                    <BEWH_ChaosDaemonBeastOfNurgle>0.15</BEWH_ChaosDaemonBeastOfNurgle>
+                    <BEWH_ChaosDaemonGreatUncleanOne>0.1</BEWH_ChaosDaemonGreatUncleanOne>
+                    <BEWH_ChaosDaemonNurgling>0.3</BEWH_ChaosDaemonNurgling>
+                    <BEWH_ChaosDaemonPlaguebearer>0.2</BEWH_ChaosDaemonPlaguebearer>
+                    <!-- Slaanesh -->
+                    <BEWH_ChaosDaemonDaemonette>0.2</BEWH_ChaosDaemonDaemonette>
+                    <!-- Tzeentch -->
+                    <BEWH_ChaosDaemonLordOfChange>0.1</BEWH_ChaosDaemonLordOfChange>
+                    <!-- Undivided -->
+                    <BEWH_ChaosDaemonZombie>0.4</BEWH_ChaosDaemonZombie>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

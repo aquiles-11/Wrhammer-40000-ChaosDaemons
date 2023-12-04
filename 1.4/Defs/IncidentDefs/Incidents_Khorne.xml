@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Skulls for the Skull Throne!!! -->
+
+    <IncidentDef>
+        <defName>BEWH_KhorneInvasion</defName>
+        <label>Khorne Invasion</label>
+        <category>ThreatBig</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>Daemons40k.IncidentWorker_ChaosInvasion</workerClass>
+        <letterLabel>Skulls for the Skull Throne!</letterLabel>
+        <letterText>Khorne Invasion</letterText>
+        <letterDef>ThreatBig</letterDef>
+        <baseChance>2.0</baseChance>
+        <earliestDay>60</earliestDay>
+        <pointsScaleable>true</pointsScaleable>
+        <!--<minThreatPoints>500</minThreatPoints>
+        <minRefireDays>1</minRefireDays>-->
+        <modExtensions>
+            <li Class="Daemons40k.DefModExtension_ChaosInvasion">
+                <InvasionParams>
+                    <li>
+                        <pawnKind>
+                            <li>BEWH_ChaosDaemonBloodletter</li>
+                        </pawnKind>
+                        <amountRange>5~15</amountRange>
+                    </li>
+                    <li>
+                        <pawnKind>
+                            <li>BEWH_ChaosDaemonBloodthirster</li>
+                        </pawnKind>
+                        <amountRange>2~5</amountRange>
+                    </li>
+                </InvasionParams>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+    <MentalStateDef>
+        <defName>BEWH_ManhunterDaemon</defName>
+        <stateClass>Daemons40k.MentalState_DaemonManhunter</stateClass>
+        <label>manhunter</label>
+        <category>Aggro</category>
+        <nameColor>(0.9,0.2,0.5)</nameColor>
+        <minTicksBeforeRecovery>99999999</minTicksBeforeRecovery>
+        <inCaravanCanDo>false</inCaravanCanDo>
+        <recoverFromSleep>false</recoverFromSleep>
+        <recoverFromDowned>false</recoverFromDowned>
+        <recoverFromCollapsingExhausted>false</recoverFromCollapsingExhausted>
+        <beginLetter>{0} has become a manhunter!</beginLetter>
+        <recoveryMessage>{0}'s manhunting bloodlust has come to an end.</recoveryMessage>
+        <baseInspectLine>Daemon is hunting</baseInspectLine>
+        <modExtensions>
+            <li Class="Daemons40k.DefModExtension_DaemonManhunter"/>
+        </modExtensions>
+    </MentalStateDef>
+
+</Defs>

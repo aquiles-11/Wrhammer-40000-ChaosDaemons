@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Undivided Base -->
+    <PawnKindDef ParentName="DaemonBasePawn" Name="UndividedDaemonBasePawn" Abstract="True">
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>ImperialFighter</li> <!-- Some custom demon backstory?-->
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <apparelColor>(20,20,20)</apparelColor>
+    </PawnKindDef>
+    <!-- Zombie -->
+    <PawnKindDef ParentName="UndividedDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonZombie</defName>
+        <label>Zombie</label>
+        <combatPower>15</combatPower>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>1~5</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>1~5</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonZombie>1</BEWH_ChaosDaemonZombie>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FurDef>
+    <defName>BEWH_ZombieBodyOne</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Male1</Male>
+      <Female>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Female1</Female>
+      <Hulk>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Hulk1</Hulk>
+      <Fat>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Fat1</Fat>
+      <Thin>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin1</Thin>
+      <Child>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin1</Child>
+      <Baby>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin1</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+  <FurDef>
+    <defName>BEWH_ZombieBodyTwo</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Male2</Male>
+      <Female>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Female2</Female>
+      <Hulk>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Hulk2</Hulk>
+      <Fat>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Fat2</Fat>
+      <Thin>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin2</Thin>
+      <Child>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin2</Child>
+      <Baby>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin2</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+  <FurDef>
+    <defName>BEWH_ZombieBodyThree</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Male3</Male>
+      <Female>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Female3</Female>
+      <Hulk>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Hulk3</Hulk>
+      <Fat>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Fat3</Fat>
+      <Thin>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin3</Thin>
+      <Child>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin3</Child>
+      <Baby>Things/Pawn/Humanlike/Undivided/Zombie/Bodies/ZombieBody_Thin3</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

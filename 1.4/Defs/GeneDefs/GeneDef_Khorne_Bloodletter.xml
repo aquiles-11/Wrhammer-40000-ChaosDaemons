@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Bloodletter -->
+    <!-- Bloodletter Body -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterBody</defName>
+        <label>Bloodletter body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <graphicData>
+            <fur>BEWH_BloodletterBody</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Bloodletter Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterHead</defName>
+        <label>Bloodletter head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_BloodletterHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Bloodletter Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterHornsOne</defName>
+        <label>Bloodletter horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Khorne/Bloodletter/HeadAttachments/Horns/BloodletterHorns1</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Bloodletter Horns 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterHornsTwo</defName>
+        <label>Bloodletter horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Khorne/Bloodletter/HeadAttachments/Horns/BloodletterHorns2</graphicPath>
+            <colorType>Skin</colorType>
+            <layer>PostHeadgear</layer>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+    </GeneDef>
+    <!-- Bloodletter Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterMutation</defName>
+        <label>Bloodletter mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <skinColorOverride>(133, 10, 14)</skinColorOverride>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(1.2, 1.2)</bodyScaleFactor>
+                <headScaleFactor>(1.2, 1.2)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

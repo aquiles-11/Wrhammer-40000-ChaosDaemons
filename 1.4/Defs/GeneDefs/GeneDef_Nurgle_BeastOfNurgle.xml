@@ -8,7 +8,7 @@
         <label>Beast of Nurgle tail</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>31</displayOrderInCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
         <exclusionTags>
             <li>Tail</li>
         </exclusionTags>
@@ -24,7 +24,7 @@
         <label>Beast of Nurgle head</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>32</displayOrderInCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
         <forcedHeadTypes>
             <li>BEWH_BeastOfNurgleHeadOne</li>
         </forcedHeadTypes>
@@ -50,7 +50,7 @@
         <label>Beast of Nurgle horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>33</displayOrderInCategory>
+        <displayOrderInCategory>103</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>
@@ -68,7 +68,7 @@
         <label>Beast of Nurgle Mutation</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>34</displayOrderInCategory>
+        <displayOrderInCategory>104</displayOrderInCategory>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <bodyScaleFactor>(1.6, 1.6)</bodyScaleFactor>

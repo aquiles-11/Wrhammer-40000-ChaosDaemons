@@ -1,0 +1,4 @@
+C:\Steam\steamapps\common\RimWorld\Mods\Wrhammer-40000-ChaosDaemons\1.4\Source\Daemons40k\obj\Debug\Daemons40k.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Wrhammer-40000-ChaosDaemons\1.4\Source\Daemons40k\obj\Debug\Daemons40k.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Wrhammer-40000-ChaosDaemons\1.4\Assemblies\Daemons40k.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Wrhammer-40000-ChaosDaemons\1.4\Source\Daemons40k\obj\Debug\Daemons40k.dll

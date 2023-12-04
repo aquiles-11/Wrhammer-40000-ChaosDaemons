@@ -3,7 +3,7 @@
 
     <HeadTypeDef ParentName="AverageBase">
         <defName>BEWH_PlaguebearerHead</defName>
-        <graphicPath>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Heads/PlaguebearerHead_Normal</graphicPath>
+        <graphicPath>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Heads/PlaguebearerHead</graphicPath>
         <randomChosen>false</randomChosen>
         <gender>None</gender>
         <requiredGenes>

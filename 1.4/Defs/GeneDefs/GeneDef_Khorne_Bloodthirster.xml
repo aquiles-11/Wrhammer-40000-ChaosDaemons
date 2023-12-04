@@ -8,7 +8,7 @@
         <label>Bloodthirster body</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>1</displayOrderInCategory>
+        <displayOrderInCategory>21</displayOrderInCategory>
         <bodyType>Hulk</bodyType>
         <graphicData>
             <fur>BEWH_BloodthirsterBody</fur>
@@ -29,7 +29,7 @@
         <label>Bloodthirster head</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>2</displayOrderInCategory>
+        <displayOrderInCategory>22</displayOrderInCategory>
         <forcedHeadTypes>
             <li>BEWH_BloodthirsterHead</li>
         </forcedHeadTypes>
@@ -55,7 +55,7 @@
         <label>Bloodthirster wings</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>3</displayOrderInCategory>
+        <displayOrderInCategory>23</displayOrderInCategory>
         <exclusionTags>
             <li>Wing</li>
             <li>Wings</li>
@@ -76,7 +76,7 @@
         <label>Bloodthirster horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>4</displayOrderInCategory>
+        <displayOrderInCategory>24</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>
@@ -94,7 +94,7 @@
         <label>Bloodthirster beard</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>5</displayOrderInCategory>
+        <displayOrderInCategory>25</displayOrderInCategory>
         <graphicData>
             <graphicPath>Things/Pawn/Humanlike/Khorne/Bloodthirster/HeadAttachments/Beard/BloodthirsterBeard</graphicPath>
             <colorType>Skin</colorType>
@@ -108,7 +108,7 @@
         <label>Bloodthirster tail</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>6</displayOrderInCategory>
+        <displayOrderInCategory>26</displayOrderInCategory>
         <exclusionTags>
             <li>Tail</li>
         </exclusionTags>
@@ -124,7 +124,8 @@
         <label>Bloodthirster mutation</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>7</displayOrderInCategory>
+        <displayOrderInCategory>27</displayOrderInCategory>
+        <skinColorOverride>(133, 10, 14)</skinColorOverride>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <bodyScaleFactor>(1.7, 1.7)</bodyScaleFactor>

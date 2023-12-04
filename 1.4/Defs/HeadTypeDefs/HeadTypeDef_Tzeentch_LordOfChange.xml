@@ -3,7 +3,7 @@
 
     <HeadTypeDef ParentName="AverageBase">
         <defName>BEWH_LordOfChangeHead</defName>
-        <graphicPath>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Heads/LordOfChangeHead_Normal</graphicPath>
+        <graphicPath>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Heads/LordOfChangeHead</graphicPath>
         <randomChosen>false</randomChosen>
         <gender>None</gender>
         <requiredGenes>

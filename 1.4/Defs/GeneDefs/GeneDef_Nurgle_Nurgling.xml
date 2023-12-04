@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Nurgling -->
+    <!-- Nurgling Mutation-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_NurglingMutation</defName>
+        <label>Nurgling Mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>141</displayOrderInCategory>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <bodyScaleFactor>(0.4, 0.4)</bodyScaleFactor>
+                <headScaleFactor>(0.4, 0.4)</headScaleFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

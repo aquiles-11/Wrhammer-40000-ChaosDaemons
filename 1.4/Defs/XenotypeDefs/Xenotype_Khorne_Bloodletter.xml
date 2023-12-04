@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Bloodletter -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonBloodletter</defName>
+        <label>Bloodletter</label>
+        <description>???</description>
+        <descriptionShort>???</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_BloodletterBody</li>
+            <li>BEWH_BloodletterHead</li>
+            <li>BEWH_BloodletterHornsOne</li>
+            <li>BEWH_BloodletterHornsTwo</li>
+            <li>BEWH_BloodletterMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

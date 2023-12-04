@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <FurDef>
-        <defName>BEWH_LordOfChangeBody</defName>
-        <noGraphic>true</noGraphic>
-        <bodyTypeGraphicPaths>
-          <Male>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Male>
-          <Female>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Female>
-          <Hulk>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Hulk>
-          <Fat>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Fat>
-          <Thin>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Thin>
-          <Child>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Child>
-          <Baby>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Baby>
-        </bodyTypeGraphicPaths>
-      </FurDef>
+  <FurDef>
+    <defName>BEWH_LordOfChangeBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Male>
+      <Female>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Female>
+      <Hulk>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Hulk>
+      <Fat>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Fat>
+      <Thin>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Thin>
+      <Child>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Child>
+      <Baby>Things/Pawn/Humanlike/Tzeentch/LordOfChange/Bodies/LordOfChangeBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
 
 </Defs>

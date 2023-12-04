@@ -8,7 +8,7 @@
         <label>Daemonette body</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>41</displayOrderInCategory>
+        <displayOrderInCategory>201</displayOrderInCategory>
         <bodyType>Standard</bodyType>
         <graphicData>
             <fur>BEWH_DaemonetteBody</fur>
@@ -30,7 +30,7 @@
         <label>Daemonette head</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>42</displayOrderInCategory>
+        <displayOrderInCategory>202</displayOrderInCategory>
         <forcedHeadTypes>
             <li>BEWH_DaemonetteHead</li>
         </forcedHeadTypes>
@@ -56,7 +56,7 @@
         <label>Daemonette ears</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>43</displayOrderInCategory>
+        <displayOrderInCategory>203</displayOrderInCategory>
         <exclusionTags>
             <li>Ear</li>
             <li>Ears</li>
@@ -74,7 +74,7 @@
         <label>Daemonette claw</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>44</displayOrderInCategory>
+        <displayOrderInCategory>204</displayOrderInCategory>
         <exclusionTags>
             <li>Claw</li>
         </exclusionTags>
@@ -93,7 +93,7 @@
         <label>Daemonette tail</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>45</displayOrderInCategory>
+        <displayOrderInCategory>205</displayOrderInCategory>
         <exclusionTags>
             <li>Tail</li>
         </exclusionTags>
@@ -109,7 +109,7 @@
         <label>Daemonette horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>46</displayOrderInCategory>
+        <displayOrderInCategory>206</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>
@@ -127,7 +127,7 @@
         <label>Daemonette horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>47</displayOrderInCategory>
+        <displayOrderInCategory>207</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>
@@ -145,7 +145,7 @@
         <label>Daemonette horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>48</displayOrderInCategory>
+        <displayOrderInCategory>208</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>
@@ -163,7 +163,7 @@
         <label>Daemonette horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>49</displayOrderInCategory>
+        <displayOrderInCategory>209</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <FurDef>
-        <defName>BEWH_PlaguebearerBody</defName>
-        <noGraphic>true</noGraphic>
-        <bodyTypeGraphicPaths>
-          <Male>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Male>
-          <Female>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Female>
-          <Hulk>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Hulk>
-          <Fat>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Fat>
-          <Thin>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Thin>
-          <Child>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Child>
-          <Baby>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Baby>
-        </bodyTypeGraphicPaths>
-      </FurDef>
+  <FurDef>
+    <defName>BEWH_PlaguebearerBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Male>
+      <Female>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Female>
+      <Hulk>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Hulk>
+      <Fat>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Fat>
+      <Thin>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Thin>
+      <Child>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Child>
+      <Baby>Things/Pawn/Humanlike/Nurgle/Plaguebearer/Bodies/PlaguebearerBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
 
 </Defs>

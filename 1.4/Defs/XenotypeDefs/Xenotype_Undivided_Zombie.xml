@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Zombie -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonZombie</defName>
+        <label>Zombie</label>
+        <description>???</description>
+        <descriptionShort>???</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_ZombieBodyOne</li>
+            <li>BEWH_ZombieBodyTwo</li>
+            <li>BEWH_ZombieBodyThree</li>
+            <li>BEWH_ZombieHeadOne</li>
+            <li>BEWH_ZombieHeadTwo</li>
+            <li>BEWH_ZombieHeadThree</li>
+            <li>BEWH_ZombieMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

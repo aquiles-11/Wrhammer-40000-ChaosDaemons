@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Warhammer 40.000 - Chaos Daemons</name>
-	<author>Phonicmas</author>
+	<author>Phonicmas, Ogam</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
 	<packageId>Phonicmas.40kChaosDaemons</packageId>
 	<description>
-		Warhammer 40.000 - Chaos Daemons
+		Warhammer 40k - Chaos Daemons
 	</description>
 	<modDependencies>
 		<li>
@@ -24,21 +24,18 @@
 			<displayName>Vanilla Expanded Framework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
 		</li>
-		<!--<li>
+		<li>
 			<packageId>Phonicmas.40kCore</packageId>
 			<displayName>Warhammer 40k - Core</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3025477432</steamWorkshopUrl>
 		</li>
-		<li>
-			<packageId>Phonicmas.40kGenes</packageId>
-			<displayName>Warhammer 40k - Genes</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3025485862</steamWorkshopUrl>
-		</li>-->
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>Phonicmas.40kCore</li>
+		<li>Phonicmas.40kFactions</li>
 	</loadAfter>
 </ModMetaData>

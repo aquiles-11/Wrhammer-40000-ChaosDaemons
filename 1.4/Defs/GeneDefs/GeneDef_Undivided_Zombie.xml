@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Zombie -->
+    <!-- Zombie Body 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_ZombieBodyOne</defName>
+        <label>Zombie body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>401</displayOrderInCategory>
+        <graphicData>
+            <fur>BEWH_ZombieBodyOne</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Zombie Body 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_ZombieBodyTwo</defName>
+        <label>Zombie body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>402</displayOrderInCategory>
+        <graphicData>
+            <fur>BEWH_ZombieBodyTwo</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Zombie Body 3 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_ZombieBodyThree</defName>
+        <label>Zombie body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>403</displayOrderInCategory>
+        <graphicData>
+            <fur>BEWH_ZombieBodyThree</fur>
+        </graphicData>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Zombie Head 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_ZombieHeadOne</defName>
+        <label>Zombie head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>404</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_ZombieHeadOne</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Zombie Head 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_ZombieHeadTwo</defName>
+        <label>Zombie head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>405</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_ZombieHeadTwo</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Zombie Head 3 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_ZombieHeadThree</defName>
+        <label>Zombie head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>406</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_ZombieHeadThree</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Zombie Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_ZombieMutation</defName>
+        <label>Zombie mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>407</displayOrderInCategory>
+    </GeneDef>
+
+</Defs>

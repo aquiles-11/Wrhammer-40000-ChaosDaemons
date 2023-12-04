@@ -8,7 +8,7 @@
         <label>Plaguebearer body</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>81</displayOrderInCategory>
+        <displayOrderInCategory>161</displayOrderInCategory>
         <bodyType>Standard</bodyType>
         <graphicData>
             <fur>BEWH_PlaguebearerBody</fur>
@@ -29,7 +29,7 @@
         <label>Plaguebearer head</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>82</displayOrderInCategory>
+        <displayOrderInCategory>162</displayOrderInCategory>
         <forcedHeadTypes>
             <li>BEWH_PlaguebearerHead</li>
         </forcedHeadTypes>
@@ -55,7 +55,7 @@
         <label>Plaguebearer horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>83</displayOrderInCategory>
+        <displayOrderInCategory>163</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>
@@ -73,7 +73,7 @@
         <label>Plaguebearer horns</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>84</displayOrderInCategory>
+        <displayOrderInCategory>164</displayOrderInCategory>
         <exclusionTags>
             <li>Horn</li>
             <li>Horns</li>
@@ -91,7 +91,7 @@
         <label>Plaguebearer mutation</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>85</displayOrderInCategory>
+        <displayOrderInCategory>165</displayOrderInCategory>
     </GeneDef>
 
 </Defs>

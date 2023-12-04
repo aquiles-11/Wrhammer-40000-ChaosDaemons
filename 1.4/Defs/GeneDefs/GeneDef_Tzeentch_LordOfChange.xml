@@ -8,7 +8,7 @@
         <label>Lord of Change body</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>61</displayOrderInCategory>
+        <displayOrderInCategory>301</displayOrderInCategory>
         <bodyType>Hulk</bodyType>
         <graphicData>
             <fur>BEWH_LordOfChangeBody</fur>
@@ -29,7 +29,7 @@
         <label>Lord of Change head</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>62</displayOrderInCategory>
+        <displayOrderInCategory>302</displayOrderInCategory>
         <forcedHeadTypes>
             <li>BEWH_LordOfChangeHead</li>
         </forcedHeadTypes>
@@ -55,7 +55,7 @@
         <label>LordOfChange wings</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>63</displayOrderInCategory>
+        <displayOrderInCategory>303</displayOrderInCategory>
         <exclusionTags>
             <li>Wing</li>
             <li>Wings</li>
@@ -76,7 +76,7 @@
         <label>Lord of Change mutation</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>64</displayOrderInCategory>
+        <displayOrderInCategory>304</displayOrderInCategory>
         <modExtensions>
             <li Class="VanillaGenesExpanded.GeneExtension">
                 <bodyScaleFactor>(1.4, 1.4)</bodyScaleFactor>

@@ -8,7 +8,7 @@
         <label>Nurgle fat body</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>21</displayOrderInCategory>
+        <displayOrderInCategory>181</displayOrderInCategory>
         <bodyType>Fat</bodyType>
         <graphicData>
             <fur>BEWH_SharedNurgleBodyOne</fur>
@@ -29,7 +29,7 @@
         <label>Nurgle fat body</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>22</displayOrderInCategory>
+        <displayOrderInCategory>182</displayOrderInCategory>
         <bodyType>Fat</bodyType>
         <graphicData>
             <fur>BEWH_SharedNurgleBodyTwo</fur>
@@ -50,7 +50,7 @@
         <label>Nurgle fat body</label>
         <description>???</description>
         <iconPath>Placeholder</iconPath>
-        <displayOrderInCategory>23</displayOrderInCategory>
+        <displayOrderInCategory>183</displayOrderInCategory>
         <bodyType>Fat</bodyType>
         <exclusionTags>
             <li>Body</li>
