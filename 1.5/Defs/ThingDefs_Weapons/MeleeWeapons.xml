@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+<!-- Melee Base -->
+
+	<ThingDef Name="BEWH_BaseMeleeWeapon" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <relicChance>3</relicChance> -->
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisites>
+				<li>BEWH_ChaosGuardMelee</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
+		<thingCategories>
+			<li>CG_Melee</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>2200</MarketValue>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Uranium>15</Uranium>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<costStuffCount>150</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		
+		<comps>
+			<li Class="CompProperties_BladelinkWeapon" MayRequire="ludeon.rimworld.royalty">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+		</comps>	
+        <tradeTags>
+            <li>GF40K_MechanicusMelee</li>
+			<li>GF40K_ImperiumMelee</li>
+        </tradeTags>
+        <weaponTags>
+            <li>ImperiumMeleeMechanicus</li>
+        </weaponTags>	
+	</ThingDef>
+	
+	<ThingDef Name="BEWH_BaseMeleeWeapon_Oversize" ParentName="BEWH_BaseMeleeWeapon" Abstract="True">
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.34,0,0.50)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1,0,0.50)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.34,0,0.50)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1,0,0.50)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>		
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+<!-- "Bonk" -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_Bonk</defName>
+		<label>bonk</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Bonk</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Axe -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonAxe</defName>
+		<label>daemon axe</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Daemon axe</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Mace -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonMace</defName>
+		<label>daemon mace</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Daemon mace</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Sword 1 -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonSwordOne</defName>
+		<label>daemon sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Daemon sword</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Sword 2 -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonSwordTwo</defName>
+		<label>daemon sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Daemon sword2</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Sword 3 -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonSwordThree</defName>
+		<label>daemon sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Daemon sword3</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Sword 4 -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonSwordFour</defName>
+		<label>daemon sword</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Daemon sword4</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Hammer -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonHammer</defName>
+		<label>daemon hammer</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Hammer</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Knife 1 -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonKnifeOne</defName>
+		<label>daemon knife</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Knife</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- Daemon Knife 2 -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonKnifeTwo</defName>
+		<label>daemon knife</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/Knife2</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+<!-- SAW -->
+
+	<ThingDef ParentName="BEWH_BaseMeleeWeapon_Oversize">
+		<defName>BEWH_DaemonSAW</defName>
+		<label>SAW</label>
+		<description>PLACEHOLDER</description>
+		<graphicData>
+			<texPath>Things/Weapons/SAW</texPath>
+		</graphicData>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetration>0.14</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>

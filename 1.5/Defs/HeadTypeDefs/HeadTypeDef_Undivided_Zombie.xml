@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_ZombieHeadOne</defName>
+        <graphicPath>Things/Pawn/Humanlike/Undivided/Zombie/Heads/ZombieHead1</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_ZombieHeadOne</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_ZombieHeadTwo</defName>
+        <graphicPath>Things/Pawn/Humanlike/Undivided/Zombie/Heads/ZombieHead2</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_ZombieHeadTwo</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_ZombieHeadThree</defName>
+        <graphicPath>Things/Pawn/Humanlike/Undivided/Zombie/Heads/ZombieHead3</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_ZombieHeadThree</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+    </HeadTypeDef>
+
+</Defs>

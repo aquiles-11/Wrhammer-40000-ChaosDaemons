@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <PawnKindDef ParentName="CultistBasePawn">
+        <defName>BEWH_Cultist</defName>
+        <label>Cultist</label>
+        <combatPower>50</combatPower>
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>ImperialFighter</li>                    <!-- Some custom demon backstory?-->
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~8</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>6~10</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="CultistBasePawn">
+        <defName>BEWH_CultistZealot</defName>
+        <label>Cultist Zealot</label>
+        <combatPower>100</combatPower>
+        <factionLeader>true</factionLeader>
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>ImperialFighter</li>                    <!-- Some custom demon backstory?-->
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~10</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>9~12</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="CultistBasePawn">
+        <defName>BEWH_TraitorGuardsman</defName>
+        <label>Traitor Guardsman</label>
+        <combatPower>120</combatPower>
+        <factionLeader>true</factionLeader>
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>ImperialFighter</li>                    <!-- Some custom demon backstory?-->
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>7~12</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>9~13</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+
+</Defs>

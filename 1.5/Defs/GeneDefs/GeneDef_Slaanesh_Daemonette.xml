@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Daemonette -->
+    <!-- Daemonette Body -->
+    <GeneDef>
+        <defName>BEWH_DaemonetteBody</defName>
+        <label>Daemonette body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>201</displayOrderInCategory>
+        <bodyType>Standard</bodyType>
+        <fur>BEWH_DaemonetteBody</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <displayCategory>BEWH_ChaosDaemon</displayCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <skinIsHairColor>false</skinIsHairColor>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <hideGene>true</hideGene>
+                <dontColourFur>true</dontColourFur>
+                <furHidesBody>true</furHidesBody>
+                <forceFemale>true</forceFemale>
+            </li>
+        </modExtensions>
+        <renderNodeProperties>
+            <li>
+                <debugLabel>Fur</debugLabel>
+                <nodeClass>PawnRenderNode_Fur</nodeClass>
+                <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+                <baseLayer>5</baseLayer>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Daemonette Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteHead</defName>
+        <label>Daemonette head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>202</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_DaemonetteHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>BEWH_DaemonetteHair</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Daemonette Claw -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteClaw</defName>
+        <label>Daemonette claw</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>204</displayOrderInCategory>
+        <exclusionTags>
+            <li>Claw</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/BodyAttachments/Claw/DaemonetteClaw</texPath>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.32, 1, -0.3)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0.32, 1, -0.3)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 1, -0.2)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 1, -0.2)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Daemonette Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteTail</defName>
+        <label>Daemonette tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/Slaanesh/Daemonette/BodyAttachments/Tail/DaemonetteTail</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <useSkinShader>false</useSkinShader>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0, 0)</offset>
+                        <layer>-2</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, 0, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Daemonette Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_DaemonetteHorns</defName>
+        <label>Daemonette horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>206</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns1</texPath>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns1</li>
+                    <li>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns2</li>
+                    <li>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns3</li>
+                    <li>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Horns/DaemonetteHorns4</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>50</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneHairStyleBase">
+        <defName>BEWH_DaemonetteHair</defName>
+        <label>daemonette hair</label>
+        <displayCategory>Cosmetic</displayCategory>
+        <description>Carriers of this gene are guaranteed to use specific Daemonette hair styles.</description>
+        <iconPath>Placeholder</iconPath>
+        <biostatCpx>0</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>BEWH_DaemonetteHair</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+
+    <HairDef>
+        <defName>BEWH_DaemonetteHairRed</defName>
+        <label>Red Hair</label>
+        <styleGender>Any</styleGender>
+        <texPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Hair/DaemonetteHair1</texPath>
+        <category>BEWH_Daemonette</category>
+        <styleTags>
+            <li>BEWH_DaemonetteHair</li>
+            <li>Shaved</li>
+            <li>Urban</li>
+            <li>Punk</li>
+            <li>Rural</li>
+            <li>Tribal</li>
+            <li>Soldier</li>
+            <li>HairShort</li>
+        </styleTags>
+        <requiredGene>BEWH_DaemonetteHair</requiredGene>
+    </HairDef>
+
+    <HairDef>
+        <defName>BEWH_DaemonetteHairPurple</defName>
+        <label>Purple Hair</label>
+        <styleGender>Any</styleGender>
+        <texPath>Things/Pawn/Humanlike/Slaanesh/Daemonette/HeadAttachments/Hair/DaemonetteHair2</texPath>
+        <category>BEWH_Daemonette</category>
+        <styleTags>
+            <li>BEWH_DaemonetteHair</li>
+            <li>Shaved</li>
+            <li>Urban</li>
+            <li>Punk</li>
+            <li>Rural</li>
+            <li>Tribal</li>
+            <li>Soldier</li>
+            <li>HairShort</li>
+        </styleTags>
+        <requiredGene>BEWH_DaemonetteHair</requiredGene>
+    </HairDef>
+
+  <StyleItemCategoryDef>
+    <defName>BEWH_Daemonette</defName>
+    <label>highmate</label>
+  </StyleItemCategoryDef>
+
+</Defs>

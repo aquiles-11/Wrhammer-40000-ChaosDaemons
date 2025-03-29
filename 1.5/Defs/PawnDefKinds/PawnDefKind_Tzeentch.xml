@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Tzeentch Base -->
+    <PawnKindDef ParentName="DaemonBasePawn" Name="TzeentchDaemonBasePawn" Abstract="True">
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>ImperialFighter</li> <!-- Some custom demon backstory?-->
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <apparelColor>(0,60,155)</apparelColor>
+    </PawnKindDef>
+    <!-- Lord of Change -->
+    <PawnKindDef ParentName="TzeentchDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonLordOfChange</defName>
+        <label>Lord of Change</label>
+        <combatPower>300</combatPower>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>9~14</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>5~9</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonLordOfChange>1</BEWH_ChaosDaemonLordOfChange>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+    <!-- Herald Of Tzeentch -->
+    <PawnKindDef ParentName="TzeentchDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonHeraldOfTzeentch</defName>
+        <label>Herald Of Tzeentch</label>
+        <combatPower>300</combatPower>
+        <factionLeader>true</factionLeader>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>9~14</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>5~9</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonHeraldOfTzeentch>1</BEWH_ChaosDaemonHeraldOfTzeentch>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+</Defs>

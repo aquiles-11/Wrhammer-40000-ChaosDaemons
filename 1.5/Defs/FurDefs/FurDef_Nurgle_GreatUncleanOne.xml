@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+  <FurDef>
+    <defName>BEWH_GreatUncleanOneBodyOne</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody1</Male>
+      <Female>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody1</Female>
+      <Hulk>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody1</Hulk>
+      <Fat>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody1</Fat>
+      <Thin>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody1</Thin>
+      <Child>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody1</Child>
+      <Baby>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody1</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+  <FurDef>
+    <defName>BEWH_GreatUncleanOneBodyTwo</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody2</Male>
+      <Female>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody2</Female>
+      <Hulk>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody2</Hulk>
+      <Fat>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody2</Fat>
+      <Thin>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody2</Thin>
+      <Child>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody2</Child>
+      <Baby>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody2</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+  <FurDef>
+    <defName>BEWH_GreatUncleanOneBodyThree</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody3</Male>
+      <Female>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody3</Female>
+      <Hulk>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody3</Hulk>
+      <Fat>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody3</Fat>
+      <Thin>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody3</Thin>
+      <Child>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody3</Child>
+      <Baby>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Bodies/GreatUncleanOneBody3</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

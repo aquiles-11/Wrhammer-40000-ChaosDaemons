@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+
+<Defs>
+
+<!-- Flag -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>BEWH_Flag</defName>
+    <label>Flag</label>
+    <description>PLACEHOLDER</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <uiIconScale>0.6</uiIconScale>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <pathCost>14</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>true</rotatable>
+    <size>(1,1)</size>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Buildings/Flag/Flag</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Mass>5</Mass>
+    </statBases>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+  </ThingDef>
+
+<!-- Helmet Thingy -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>BEWH_Heavy</defName>
+    <label>Heavy helmet</label>
+    <description>PLACEHOLDER</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <uiIconScale>0.6</uiIconScale>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <pathCost>14</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>true</rotatable>
+    <size>(1,1)</size>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Buildings/Heavy/Heavy1</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,-0.15)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Mass>5</Mass>
+    </statBases>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+  </ThingDef>
+
+<!-- Scull -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>BEWH_Scull</defName>
+    <label>Scull</label>
+    <description>PLACEHOLDER</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <uiIconScale>0.6</uiIconScale>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <pathCost>14</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>true</rotatable>
+    <size>(1,1)</size>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Buildings/Scull/Scull</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Mass>5</Mass>
+    </statBases>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+  </ThingDef>
+
+
+</Defs>

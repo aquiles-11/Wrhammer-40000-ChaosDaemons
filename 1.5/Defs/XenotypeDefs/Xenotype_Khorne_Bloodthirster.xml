@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Bloodthirster -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonBloodthirster</defName>
+        <label>Bloodthirster</label>
+        <description>A Bloodthirster, also called a "Fist of Khorne," a "Guardian of the Throne," and a "Blooded One," is the Greater Daemon of Khorne, and each is a manifestation of the unreasoning rage and savagery of total war.
+
+It is said that there are no more powerful masters of battle in the entire galaxy than the Greater Daemons of the Blood God and that none may stand before them. They are the very essence of brutality, every blow ever struck and life ever taken in anger distilled into a single, towering form of iron and sinew.</description>
+        <descriptionShort>A Bloodthirster, also called a "Fist of Khorne," a "Guardian of the Throne," and a "Blooded One," is the Greater Daemon of Khorne, and each is a manifestation of the unreasoning rage and savagery of total war.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_BloodthirsterBody</li>
+            <li>BEWH_BloodthirsterHead</li>
+            <li>BEWH_BloodthirsterWings</li>
+            <li>BEWH_BloodthirsterTail</li>
+            <li>BEWH_BloodthirsterMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

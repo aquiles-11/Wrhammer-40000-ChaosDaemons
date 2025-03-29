@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Great Unclean One -->
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_GreatUncleanOneHeadOne</defName>
+        <graphicPath>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Heads/GreatUncleanOneHead1</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_GreatUncleanOneHeadOne</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+        <modExtensions>
+			<li Class="VFECore.HeadExtension">
+				<forcedHeadShader>CutoutComplex</forcedHeadShader>
+			</li>
+		</modExtensions>
+    </HeadTypeDef>
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_GreatUncleanOneHeadTwo</defName>
+        <graphicPath>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/Heads/GreatUncleanOneHead2</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_GreatUncleanOneHeadTwo</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+        <modExtensions>
+			<li Class="VFECore.HeadExtension">
+				<forcedHeadShader>CutoutComplex</forcedHeadShader>
+			</li>
+		</modExtensions>
+    </HeadTypeDef>
+
+</Defs>

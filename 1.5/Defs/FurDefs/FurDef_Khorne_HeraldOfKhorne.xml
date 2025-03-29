@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+  <FurDef>
+    <defName>BEWH_HeraldOfKhorneBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Bodies/HeraldOfKhorneBody</Male>
+      <Female>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Bodies/HeraldOfKhorneBody</Female>
+      <Hulk>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Bodies/HeraldOfKhorneBody</Hulk>
+      <Fat>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Bodies/HeraldOfKhorneBody</Fat>
+      <Thin>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Bodies/HeraldOfKhorneBody</Thin>
+      <Child>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Bodies/HeraldOfKhorneBody</Child>
+      <Baby>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Bodies/HeraldOfKhorneBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

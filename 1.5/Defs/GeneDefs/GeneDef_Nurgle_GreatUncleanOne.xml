@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Great Unclean One -->
+    <!-- Great Unclean One Body -->
+        <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_GreatUncleanOneBodyOne</defName>
+        <label>Great Unclean One Body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>181</displayOrderInCategory>
+        <bodyType>Fat</bodyType>
+        <fur>BEWH_GreatUncleanOneBodyOne</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+        <!-- Great Unclean One Body -->
+        <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_GreatUncleanOneBodyTwo</defName>
+        <label>Great Unclean One Body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>181</displayOrderInCategory>
+        <bodyType>Fat</bodyType>
+        <fur>BEWH_GreatUncleanOneBodyTwo</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+        <!-- Great Unclean One Body -->
+        <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_GreatUncleanOneBodyThree</defName>
+        <label>Great Unclean One Body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>181</displayOrderInCategory>
+        <bodyType>Fat</bodyType>
+        <fur>BEWH_GreatUncleanOneBodyThree</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+     <!-- Great Unclean One Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneTail</defName>
+        <label>Great Unclean One tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/BodyAttachments/Tail/GreatUncleanOneTail</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <useSkinShader>false</useSkinShader>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.1, 0, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, 0, 0.2)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0.1, 0, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(-0.1, 0, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>    
+    <!-- Great Unclean One Head 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneHeadOne</defName>
+        <label>Great Unclean One head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>121</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_GreatUncleanOneHeadOne</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Great Unclean One Head 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneHeadTwo</defName>
+        <label>Great Unclean One head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>122</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_GreatUncleanOneHeadTwo</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Great Unclean One Horns -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneHorns</defName>
+        <label>Great Unclean One horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>123</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/HeadAttachments/Horns/GreatUncleanOneHorns1</texPath>
+                <texPaths>
+                <li>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/HeadAttachments/Horns/GreatUncleanOneHorns1</li>
+                <li>Things/Pawn/Humanlike/Nurgle/GreatUncleanOne/HeadAttachments/Horns/GreatUncleanOneHorns2</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <useSkinShader>false</useSkinShader>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Great Unclean One Mutation-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_GreatUncleanOneMutation</defName>
+        <label>Great Unclean One Mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>125</displayOrderInCategory>
+        <statFactors>
+            <VEF_CosmeticBodySize_Multiplier>2</VEF_CosmeticBodySize_Multiplier>
+        </statFactors>
+    </GeneDef>
+
+</Defs>

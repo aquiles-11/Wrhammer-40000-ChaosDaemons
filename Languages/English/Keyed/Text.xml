@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+<!-- General -->
+	
+	<GeneralEnlistLetterTitle>{FACTION_name}: Enlisted</GeneralEnlistLetterTitle>
+	
+	<GeneralEnlistButtonLabel>Enlist with {FACTION_name}</GeneralEnlistButtonLabel>
+
+	<GeneralEnlistButtonDesc>Sign a new contract with {FACTION_name}.</GeneralEnlistButtonDesc>
+
+	<GeneralEnlistedWithKey>Enlisted with: {FACTION_name}</GeneralEnlistedWithKey>
+	
+	<GeneralMissionsLabel>Missions</GeneralMissionsLabel>
+
+	<GeneralMissionsDesc>Missions description</GeneralMissionsDesc>
+
+	<GeneralMenuMissionsSelectQuest>Select a Mission: </GeneralMenuMissionsSelectQuest>
+
+	<GeneralMenuMissionsStartQuest>Start Quest ({0})</GeneralMenuMissionsStartQuest>
+
+	<General.Cancel>Cancel</General.Cancel>
+
+	<GeneralNoEnoughMoney>Not enough money</GeneralNoEnoughMoney>
+	
+	<GeneralStorageLabel>Storage</GeneralStorageLabel>
+
+	<GeneralStorageDesc>Store items from your caravan to your faction stash. Faction stashes transfer across all of the faction's outposts and will save contents even if you are no longer enlisted.</GeneralStorageDesc>
+	
+	<GeneralDropPodServiceLabel>Drop Pod service</GeneralDropPodServiceLabel>
+
+	<GeneralDropPodServiceDesc>Use this faction's drop pod service to travel by air! $1000 cost.</GeneralDropPodServiceDesc>
+
+	<GeneralDropPodServiceRequirementDesc>You need $1000 silver to cover all expenses.</GeneralDropPodServiceRequirementDesc>
+	
+	<General.StorageInventory>Storage inventory</General.StorageInventory>
+
+	<General.CaravanInventory>Caravan inventory</General.CaravanInventory>
+	
+	<General.ActiveEnlistOptions>Active enlist options</General.ActiveEnlistOptions>
+	
+	<GeneralSalaryLabel>Salary</GeneralSalaryLabel>
+
+	<GeneralSalaryDesc>You are entitled to claim payment from this faction every 15 days.</GeneralSalaryDesc>		
+	
+	<GeneralMedicalTrainingLabel>Training: Medical</GeneralMedicalTrainingLabel>
+
+	<GeneralMedicalTrainingDesc>Train your caravan with hourly experience gain on the following skills:\n\n- Medical\n- Social\n- Intellectual\n\nHourly experience gain stops when this faction is resting at night.</GeneralMedicalTrainingDesc>
+
+	<GeneralShootingTrainingLabel>Training: Combat</GeneralShootingTrainingLabel>
+
+	<GeneralShootingTrainingDesc>Train your caravan with hourly experience gain on the following skills:\n\n- Shooting\n- Melee\n\nHourly experience gain stops when this faction is resting at night.</GeneralShootingTrainingDesc>	
+
+	<GeneralSurvivalTrainingLabel>Training: Survival</GeneralSurvivalTrainingLabel>
+
+	<GeneralSurvivalTrainingDesc>Train your caravan with hourly experience gain on the following skills:\n\n- Animals\n- Construction\n- Cooking\n- Crafting\n- Plants\n\nHourly experience gain stops when this faction is resting at night.</GeneralSurvivalTrainingDesc>
+
+	<GeneralTurnInLabel>Turn in</GeneralTurnInLabel>
+
+	<GeneralReinforcementsButtonLabel>Reinforcements</GeneralReinforcementsButtonLabel>
+
+	<GeneralReinforcementsButtonDesc>Call for reinforcements from your enlisted faction. Amount of troops they send depend on your current relations.</GeneralReinforcementsButtonDesc>
+
+	<GeneralResignLetterTitle>Resigned</GeneralResignLetterTitle>
+
+	<GeneralResignButtonLabel>Resign</GeneralResignButtonLabel>
+
+    <GeneralResignButtonDesc>Leave active duty from this faction</GeneralResignButtonDesc>
+
+    <General.PlayerSettlementRequired>Player's settlement required</General.PlayerSettlementRequired>
+
+	<GeneralEnlistedToHostileFaction>Cannot join because you are enlisted with their enemy, {HOSTILEFACTION_name}</GeneralEnlistedToHostileFaction>
+	
+	<GeneralKickOutLetterTitle>Kicked out</GeneralKickOutLetterTitle>
+
+	<GeneralProvisionsLabel>Provisions</GeneralProvisionsLabel>
+
+	<GeneralKickOutLabelTitle>An order for your enlistment's immediate termination from service has been filed by {LEADER_nameDef}. You have been kicked out from {FACTION_name}.</GeneralKickOutLabelTitle>
+	
+
+<!-- Empire -->
+
+	<EmpireEnlistLetterLabel>To Our Esteemed Vassal,
+
+By decree of {LEADER_nameDef}, Stellarch of {FACTION_name}, you are now entrusted with a noble duty. As one who now serves under the Empire's banner, you hold a sacred duty: to uphold our honor and extend our reach into the untamed fringes.
+
+Our outposts are extensions of imperial order. There, you may rest, resupply, and ready yourself for the tasks ahead. Yet remember, such privilege comes with expectation: devotion to the Empire and diligence in your duties.
+
+Conduct yourself with grace, enforce the will of the Empire, and bring order where there is none. Through your actions, you will find both glory and purpose. Serve well, and you will be remembered.
+
+— {LEADER_nameDef}
+Stellarch of {FACTION_name}</EmpireEnlistLetterLabel>
+
+	<EmpireEnlistRequrementsNotSatisfied>You need to have minimum 70 goodwill, currently you have only {0} goodwill.</EmpireEnlistRequrementsNotSatisfied>
+	
+	<EmpireMenuMissionsDesc>You enter a grand chamber adorned with gilded decor and shimmering banners. A polished board displays notices of treasonous plots, missing nobles, and decrees demanding swift action.</EmpireMenuMissionsDesc>
+
+
+	<EmpireProvisionsDesc>Provisions will give your caravan inventory the following every 24 hours:\n\n- ×2 Packaged survival meals\n- ×1 Lavish meal\n- ×1 Glitterworld medicine</EmpireProvisionsDesc>
+
+	<EmpireTurnInTraderName>Imperial Holding Facility</EmpireTurnInTraderName>
+
+	<EmpireProvisionsLabelApparelIssue>Trooper Gear</EmpireProvisionsLabelApparelIssue>
+
+	<EmpireProvisionsDescApparelIssue>Trooper Gear will give your caravan inventory the following every 30 days:\n\n- ×1 Steel longsword \n- ×1 Assault rifle \n- ×1 Gunlink \n- ×1 Recon armor</EmpireProvisionsDescApparelIssue>	
+		
+	<EmpirePartTimeJobLabel>Imperial labor</EmpirePartTimeJobLabel>
+
+	<EmpirePartTimeJobDesc>Earn $8 an hour working as an Imperial laborer. Earnings are halted when the faction is resting at night.</EmpirePartTimeJobDesc>	
+	
+	<EmpireHospitalLabel>Hospital</EmpireHospitalLabel>
+
+	<EmpireHospitalDesc>Check in with the hospital of this outpost. This service tends to all of your caravan members with glitterworld medicine. Immunity gain is also increased while your caravan is using the hospital.</EmpireHospitalDesc>
+
+	<EmpireTurnInDesc>Turn in suspected outlaws and deserters to holding facilities for trial in Imperial court.\n\nTurning over any hostile pawns do not result in a slavery debuff.</EmpireTurnInDesc>	
+
+	<EmpireResignLetterLabel>You have successfully resigned from {FACTION_name}. (-95 relations)</EmpireResignLetterLabel>
+	
+	<EmpireResignMenuText>You will resign from the Empire, effective immediately. (-95 in relations)</EmpireResignMenuText>
+
+
+	<EmpireProvisionsLabelPrestigeIssue>Noble Attire</EmpireProvisionsLabelPrestigeIssue>
+
+	<EmpireProvisionsDescPrestigeIssue>Noble Attire will give your caravan inventory the following every 20 days:\n\n- ×1 Formal vest \n- ×1 Formal shirt \n- ×1 Cape \n- ×1 Steel coronet \n- ×1 Pants</EmpireProvisionsDescPrestigeIssue>	
+	
+
+	<EmpireProvisionsLabelBestowerIssue>Bestower Gear</EmpireProvisionsLabelBestowerIssue>
+
+	<EmpireProvisionsDescBestowerIssue>Bestower Gear will give your caravan inventory the following every 60 days:\n\n- ×1 Eltex staff \n- ×1 Prestige robe\n- ×1 Hood</EmpireProvisionsDescBestowerIssue>	
+
+
+	<TitleRequirementKey>You need to become a Freeholder</TitleRequirementKey>
+	<TitleRequirementDesc>You need to become a Freeholder NOW!</TitleRequirementDesc>
+	<TitleRequirementLabel>You need to become a Freeholder later</TitleRequirementLabel>
+
+	<FavorLabel>Gain Honor</FavorLabel>
+	<FavorDesc>Gain Honor will give a chosen pawn a range of honor every 15 days:\n\n- ×5~10 Honor </FavorDesc>
+
+
+
+</LanguageData>

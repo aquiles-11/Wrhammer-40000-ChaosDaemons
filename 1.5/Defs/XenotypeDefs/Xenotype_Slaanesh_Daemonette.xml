@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Herald of Slaanesh -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonHeraldofSlaanesh</defName>
+        <label>Herald of Slaanesh</label>
+        <description>A Herald of Slaanesh is an elite form of Daemonette, a Lesser Daemon of Slaanesh, the Prince of Chaos.
+
+Of all the Chaos Gods, it is Slaanesh whose desires and practises are most like those of a mortal ruler, and to this end it surrounds itself with a court to attend and entertain it. Made up of the immortal and the immoral alike, only those in great favour are given the honour of basking in Slaanesh's presence.</description>
+        <descriptionShort>A Herald of Slaanesh is an elite form of Daemonette, a Lesser Daemon of Slaanesh, the Prince of Chaos.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_DaemonetteBody</li>
+            <li>BEWH_DaemonetteHead</li>
+            <li>BEWH_DaemonetteClaw</li>
+            <li>BEWH_DaemonetteHorns</li>
+            <li>BEWH_DaemonetteTail</li>
+            <li>BEWH_DaemonetteHair</li>
+        </genes>
+    </XenotypeDef>
+
+    <!-- Daemonette -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonDaemonette</defName>
+        <label>Daemonette</label>
+        <description>A Daemonette, also known as a "Maiden of Ecstasy," is a Lesser Daemon of Slaanesh, the Prince of Pleasure and Chaos God of amoral pleasure. Also known as "Bringers of Joyous Degradation," "Harbingers of Endless Delights," the "Children of Slaanesh," and "Seekers of Decadence," Daemonettes are all these things and more.
+
+Their physical appearance is confounding. At once impossibly twisted and shamefully intriguing, the hermaphroditic form of a Daemonette is both repulsive and nearly impossible for a mortal to turn away from. In battle, Daemonettes are lithe, dexterous killers, whose claws can tear their opponents to shreds, or allure their mortal victims into their clutches.</description>
+        <descriptionShort>A Daemonette, also known as a "Maiden of Ecstasy," is a Lesser Daemon of Slaanesh, the Prince of Pleasure and Chaos God of amoral pleasure.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_DaemonetteBody</li>
+            <li>BEWH_DaemonetteHead</li>
+            <li>BEWH_DaemonetteClaw</li>
+            <li>BEWH_DaemonetteHorns</li>
+            <li>BEWH_DaemonetteTail</li>
+            <li>BEWH_DaemonetteHair</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

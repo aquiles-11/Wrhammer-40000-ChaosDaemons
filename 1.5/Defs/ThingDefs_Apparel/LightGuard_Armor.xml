@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+
+<Defs>
+
+<!-- Chaos Guard Armor Base -->
+
+	<ThingDef Name="BEWH_ArmorReconBase" ParentName="ArmorMachineableBase" Abstract="True">
+		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- Default to vanilla tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
+		<tradeTags>
+			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
+			<li>Armor</li>
+		</tradeTags> 
+		<thingCategories>
+			<li>CG_Armor</li>
+		</thingCategories>
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<!-- TODO: Edit Stats -->
+		<statBases>
+		  <WorkToMake>45000</WorkToMake>
+		  <MaxHitPoints>280</MaxHitPoints>
+		  <Mass>9</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
+		  <Insulation_Cold>32</Insulation_Cold>
+		  <Insulation_Heat>9</Insulation_Heat>
+		  <EquipDelay>11</EquipDelay>
+		</statBases>
+		
+		<!-- Crafting Materials -->
+		<costList>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Plasteel>80</Plasteel>
+		  <Uranium>10</Uranium>
+		</costList>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<apparel>
+			<bodyPartGroups>  <!-- TODO: Edit as needed -->
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- Default to vanilla tex -->
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li> <!-- ? -->
+			</defaultOutfitTags>
+			<tags>
+				<li>SpacerMilitary</li> <!-- TODO: Edit Tags -->
+			</tags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+		</apparel> 
+		
+	</ThingDef>
+
+	<ThingDef Name="BEWH_ArmorHelmetReconBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- Default -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>CG_Headgear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>HiTechArmor</li> <!-- TODO: Edit Tags? -->
+		</tradeTags>
+		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->		
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+			
+		<statBases>
+		  <WorkToMake>16000</WorkToMake>
+		  <MaxHitPoints>120</MaxHitPoints>
+		  <Mass>1</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
+		  <Insulation_Cold>4</Insulation_Cold>
+		  <Insulation_Heat>2</Insulation_Heat>
+		  <EquipDelay>2</EquipDelay>
+		</statBases>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		
+		<!-- Crafting Materials -->
+		<costList>
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <Plasteel>30</Plasteel>
+		</costList>
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- Default -->
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li> <!-- ? -->
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<forceEyesVisibleForRotations> <!-- ? -->
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>
+		</apparel>
+	</ThingDef>
+
+<!-- Light Armor -->
+
+	<ThingDef ParentName="BEWH_ArmorReconBase">
+		<defName>BEWH_Apparel_LightGuard_Armor</defName>
+		<label>light guard armor</label>
+		<description>PLACEHOLDER</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/LightGuard/Light_Male_south</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>BEWH_ChaosGuardArmor</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/LightGuard/Light</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>BEWH_ChaosGuardArmor</researchPrerequisite> 
+			<displayPriority>210</displayPriority>
+		</recipeMaker>
+		
+		<tradeTags>
+			<li>BEWH_ChaosGuard</li>
+		</tradeTags> 
+		
+	</ThingDef>
+
+<!-- Light Chaos Guard Helmets -->
+
+	<ThingDef ParentName="BEWH_ArmorHelmetReconBase">
+		<defName>BEWH_Apparel_ChaosGuard_LightHelmetOne</defName>
+		<label>guard light helmet</label>
+		<description>PLACEHOLDER</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/LightGuard/Light1_south</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>BEWH_ChaosGuardHelmet</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/LightGuard/Light1</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>BEWH_ChaosGuardArmor</researchPrerequisite> 
+			<displayPriority>200</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BEWH_ChaosGuard</li>
+		</tradeTags> 
+	</ThingDef>
+
+	<ThingDef ParentName="BEWH_ArmorHelmetReconBase">
+		<defName>BEWH_Apparel_ChaosGuard_LightHelmetTwo</defName>
+		<label>guard light helmet</label>
+		<description>PLACEHOLDER</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/LightGuard/Light2_south</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>BEWH_ChaosGuardHelmet</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/LightGuard/Light2</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>BEWH_ChaosGuardArmor</researchPrerequisite> 
+			<displayPriority>200</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BEWH_ChaosGuard</li>
+		</tradeTags> 
+	</ThingDef>
+
+
+
+</Defs>

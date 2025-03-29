@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Plaguebearer -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonPlaguebearer</defName>
+        <label>Plaguebearer</label>
+        <description>A Plaguebearer, also called a "Maggotkin," and a "Tallyman of Nurgle," is a Lesser Daemon and a footsoldier in Nurgle's Daemonic legions. These loathsome creatures are crafted from the blighted souls of mortals who have been slain by the virulent plague known as Nurgle's Rot.
+
+These Lesser Daemons of the Lord of Decay are shambling, pustulent creatures. Plaguebearers have gangling, bony limbs, their bodies swollen with decay, so much so that glistening innards are exposed through rents in their skin. They possess a single, cyclopean eye and a single horn rising above their haggard, drawn faces, their bodies covered in filth and parasites. Despite the Plaguebearer's unusual appearance, they are supernaturally resilient to harm, the gifts of their master having inured them to all pain.</description>
+        <descriptionShort>A Plaguebearer, also called a "Maggotkin," and a "Tallyman of Nurgle," is a Lesser Daemon and a footsoldier in Nurgle's Daemonic legions.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_PlaguebearerBody</li>
+            <li>BEWH_PlaguebearerHead</li>
+            <li>BEWH_PlaguebearerHornsOne</li>
+            <li>BEWH_PlaguebearerHornsTwo</li>       
+         </genes>
+    </XenotypeDef>
+
+</Defs>

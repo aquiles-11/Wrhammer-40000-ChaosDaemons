@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+  <FurDef>
+    <defName>BEWH_HeraldOfTzeentchBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/Bodies/HeraldOfTzeentchBody</Male>
+      <Female>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/Bodies/HeraldOfTzeentchBody</Female>
+      <Hulk>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/Bodies/HeraldOfTzeentchBody</Hulk>
+      <Fat>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/Bodies/HeraldOfTzeentchBody</Fat>
+      <Thin>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/Bodies/HeraldOfTzeentchBody</Thin>
+      <Child>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/Bodies/HeraldOfTzeentchBody</Child>
+      <Baby>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/Bodies/HeraldOfTzeentchBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

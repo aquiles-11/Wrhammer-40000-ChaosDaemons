@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FurDef>
+    <defName>BEWH_SharedNurgleBodyOne</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody1</Male>
+      <Female>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody1</Female>
+      <Hulk>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody1</Hulk>
+      <Fat>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody1</Fat>
+      <Thin>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody1</Thin>
+      <Child>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody1</Child>
+      <Baby>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody1</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+  <FurDef>
+    <defName>BEWH_SharedNurgleBodyTwo</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody2</Male>
+      <Female>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody2</Female>
+      <Hulk>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody2</Hulk>
+      <Fat>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody2</Fat>
+      <Thin>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody2</Thin>
+      <Child>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody2</Child>
+      <Baby>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody2</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+  <FurDef>
+    <defName>BEWH_SharedNurgleBodyThree</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody3</Male>
+      <Female>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody3</Female>
+      <Hulk>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody3</Hulk>
+      <Fat>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody3</Fat>
+      <Thin>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody3</Thin>
+      <Child>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody3</Child>
+      <Baby>Things/Pawn/Humanlike/Nurgle/Shared/Bodies/SharedNurgleBody3</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

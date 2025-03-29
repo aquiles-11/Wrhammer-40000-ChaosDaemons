@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>BEWH_ChaosGuardMelee</defName>
+		<label>Melee weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>4000</baseCost>	
+		<techLevel>Ultra</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>BEWH_ChaosGuardRanged</defName>
+		<label>Ranged weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>4000</baseCost>	
+		<techLevel>Ultra</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY> 	
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>BEWH_ChaosGuardArmor</defName>
+		<label>Ranged weapons</label>
+		<description>PLACEHOLDER</description>
+		<baseCost>4000</baseCost>	
+		<techLevel>Ultra</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY> 	
+	</ResearchProjectDef>
+
+</Defs>

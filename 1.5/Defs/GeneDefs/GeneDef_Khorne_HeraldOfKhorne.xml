@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <!-- Herald Of Khorne -->
+    <!-- Herald Of Khorne Body -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_HeraldOfKhorneBody</defName>
+        <label>Herald Of Khorne body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <fur>BEWH_HeraldOfKhorneBody</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+    <!-- Herald Of Khorne Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_HeraldOfKhorneHead</defName>
+        <label>Herald Of Khorne head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_HeraldOfKhorneHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Herald Of Khorne Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_HeraldOfKhorneHorns</defName>
+        <label>Herald Of Khorne horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/HeadAttachments/HeraldOfKhorneHorns</texPath>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Head</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0, 0.6)</offset>
+                        <layer>70</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0.6)</offset>
+                        <layer>-10</layer>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.05, 0, 0.5)</offset>
+                        <layer>70</layer>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.05, 0, 0.5)</offset>
+                        <layer>70</layer>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+            <!-- Herald Of Khorne Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_HeraldOfKhorneTail</defName>
+        <label>Herald Of Khorne tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/BodyAttachments/Tail/HeraldOfKhorneTail</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(-0.1, 0, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, 0, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Herald Of Khorne Mutation-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_HeraldOfKhorneMutation</defName>
+        <label>Herald Of Khorne Mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>125</displayOrderInCategory>
+        <statFactors>
+            <VEF_CosmeticBodySize_Multiplier>1.5</VEF_CosmeticBodySize_Multiplier>
+        </statFactors>
+    </GeneDef>
+
+</Defs>

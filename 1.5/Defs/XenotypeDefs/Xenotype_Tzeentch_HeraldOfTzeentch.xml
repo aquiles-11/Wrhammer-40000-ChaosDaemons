@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+
+<Defs>
+
+    <!-- Herald Of Tzeentch -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonHeraldOfTzeentch</defName>
+        <label>Herald of Tzeentch</label>
+        <description>A Herald of Tzeentch is an elite form of Pink Horror, a Lesser Daemon of Tzeentch. The Heralds of Tzeentch lead the hosts of the Scintillating Legions into wars across the galaxy.
+
+Whether moving amongst the capering hordes of Lesser Daemons, hurtling across the battlefield on a Burning Chariot or soaring through the skies atop a Disc of Tzeentch, each is an expert at weaving cunning illusions and blasting their opponents into oblivion.</description>
+        <descriptionShort>A Herald of Tzeentch is an elite form of Pink Horror, a Lesser Daemon of Tzeentch. The Heralds of Tzeentch lead the hosts of the Scintillating Legions into wars across the galaxy.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_HeraldOfTzeentchBody</li>
+            <li>BEWH_HeraldOfTzeentchHead</li>
+            <li>BEWH_HeraldOfTzeentchTentacles</li>
+            <li>BEWH_HeraldOfTzeentchMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

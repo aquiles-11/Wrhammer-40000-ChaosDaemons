@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FurDef>
+    <defName>BEWH_BloodthirsterBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Khorne/Bloodthirster/Bodies/BloodthirsterBody</Male>
+      <Female>Things/Pawn/Humanlike/Khorne/Bloodthirster/Bodies/BloodthirsterBody</Female>
+      <Hulk>Things/Pawn/Humanlike/Khorne/Bloodthirster/Bodies/BloodthirsterBody</Hulk>
+      <Fat>Things/Pawn/Humanlike/Khorne/Bloodthirster/Bodies/BloodthirsterBody</Fat>
+      <Thin>Things/Pawn/Humanlike/Khorne/Bloodthirster/Bodies/BloodthirsterBody</Thin>
+      <Child>Things/Pawn/Humanlike/Khorne/Bloodthirster/Bodies/BloodthirsterBody</Child>
+      <Baby>Things/Pawn/Humanlike/Khorne/Bloodthirster/Bodies/BloodthirsterBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

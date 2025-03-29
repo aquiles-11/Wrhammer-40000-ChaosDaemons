@@ -1,0 +1,28 @@
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Royalty</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+    <operations>
+      <!-- Adding modextensions -->
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="Empire"]</xpath>
+            <value>
+            <li Class="ChickenCore.Enlistment.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ChaosUndividedEnlist</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
+        </value>
+      </li>
+
+    </operations>
+  </match>
+</Operation>
+
+
+
+</Patch>

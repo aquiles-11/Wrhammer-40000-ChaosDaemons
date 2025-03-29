@@ -1,0 +1,4 @@
+D:\Steam\steamapps\common\RimWorld\Mods\TEST S.T.A.L.K.E.R\Assemblies\S.T.A.L.K.E.R\S.T.A.L.K.E.R\obj\Debug\S.T.A.L.K.E.R.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\TEST S.T.A.L.K.E.R\Assemblies\S.T.A.L.K.E.R\S.T.A.L.K.E.R\obj\Debug\S.T.A.L.K.E.R.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\TEST S.T.A.L.K.E.R\Assemblies\S.T.A.L.K.E.R\S.T.A.L.K.E.R\obj\Debug\S.T.A.L.K.E.R.dll
+D:\Steam\steamapps\common\RimWorld\Mods\TEST S.T.A.L.K.E.R\Assemblies\S.T.A.L.K.E.R.dll

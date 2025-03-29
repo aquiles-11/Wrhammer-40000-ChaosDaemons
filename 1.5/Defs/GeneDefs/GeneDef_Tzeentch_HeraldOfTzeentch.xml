@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+
+<Defs>
+
+    <!-- Herald Of Tzeentch -->
+    <!-- Herald Of Tzeentch Body -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_HeraldOfTzeentchBody</defName>
+        <label>Herald Of Tzeentch body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <fur>BEWH_HeraldOfTzeentchBody</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+    <!-- Herald Of Tzeentch Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_HeraldOfTzeentchHead</defName>
+        <label>Herald Of Tzeentch head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_HeraldOfTzeentchHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+
+    <!-- Herald of Tzeentch -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_HeraldOfTzeentchTentacles</defName>
+        <label>Herald Of Tzeentch tentacles</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>303</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tentacles</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/Tzeentch/HeraldOfTzeentch/BodyAttachments/Tentacles/HeraldOfTzeentchTentacles</texPath>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1.6, 1.6)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>false</scaleOffsetByBodySize>
+                    <dataNorth>
+                        <offset>(0, 0, -0.1)</offset>
+                        <layer>30</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, -0.1)</offset>
+                        <layer>-10</layer>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0.1, 0, 0)</offset>
+                        <layer>10</layer>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(-0.1, 0, 0)</offset>
+                        <layer>10</layer>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Lord of Change Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_HeraldOfTzeentchMutation</defName>
+        <label>Herald Of Tzeentch mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>304</displayOrderInCategory>
+        <statFactors>
+            <VEF_CosmeticBodySize_Multiplier>1.7</VEF_CosmeticBodySize_Multiplier>
+        </statFactors>
+    </GeneDef>
+
+
+</Defs>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Bloodthirster -->
+    <!-- Bloodthirster Body -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_BloodthirsterBody</defName>
+        <label>Bloodthirster body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>21</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <fur>BEWH_BloodthirsterBody</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+    <!-- Bloodthirster Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterHead</defName>
+        <label>Bloodthirster head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>22</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_BloodthirsterHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Bloodthirster Wings -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterWings</defName>
+        <label>Bloodthirster wings</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>23</displayOrderInCategory>
+        <exclusionTags>
+            <li>Wing</li>
+            <li>Wings</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/Khorne/Bloodthirster/BodyAttachments/Wings/BloodthirsterWings</texPath>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(2.3, 2.3)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, 0.2, 0.3)</offset>
+						<layer>90</layer>
+					</dataNorth>
+					<dataSouth>
+						<offset>(0, -0.2, 0.3)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(-0.7, 0, 0.3)</offset>
+						<layer>-40</layer>
+					</dataEast>
+					<dataWest>
+						<offset>(0.7, 0, 0.3)</offset>
+						<layer>-40</layer>
+					</dataWest>
+				</drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+        <!-- Bloodthirster Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterTail</defName>
+        <label>Bloodthirster tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/Khorne/Bloodthirster/BodyAttachments/Tail/BloodthirsterTail</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(-0.1, 0, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, 0, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Bloodthirster Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodthirsterMutation</defName>
+        <label>Bloodthirster mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>27</displayOrderInCategory>
+        <statFactors>
+            <VEF_CosmeticBodySize_Multiplier>2</VEF_CosmeticBodySize_Multiplier>
+        </statFactors>
+    </GeneDef>
+
+</Defs>

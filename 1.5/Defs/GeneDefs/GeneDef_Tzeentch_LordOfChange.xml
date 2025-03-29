@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Lord of Change -->
+    <!-- Lord of Change Body -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_LordOfChangeBody</defName>
+        <label>Lord of Change body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>301</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <fur>BEWH_LordOfChangeBody</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+    <!-- Lord of Change Head 1-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeHeadOne</defName>
+        <label>Lord of Change one head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>302</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_LordOfChangeHeadOne</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+
+    <!-- Lord of Change Head 2-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeHeadTwo</defName>
+        <label>Lord of Change two head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>302</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_LordOfChangeHeadTwo</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+
+    <!-- Lord of Change Head 3-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeHeadThree</defName>
+        <label>Lord of Change three head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>302</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_LordOfChangeHeadThree</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+
+    <!-- Lord of Change Wings -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeWings</defName>
+        <label>LordOfChange wings</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>303</displayOrderInCategory>
+        <exclusionTags>
+            <li>Wing</li>
+            <li>Wings</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/Tzeentch/LordOfChange/BodyAttachments/Wings/LordOfChangeWings</texPath>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(2.3, 2.3)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-2</layer>
+					</defaultData>
+					<dataNorth>
+						<offset>(0, 0.2, 0.2)</offset>
+						<layer>90</layer>
+					</dataNorth>
+					<dataSouth>
+						<offset>(0, -0.2, 0.3)</offset>
+					</dataSouth>
+					<dataEast>
+						<offset>(-0.7, 0.3, 0.3)</offset>
+						<layer>90</layer>
+					</dataEast>
+					<dataWest>
+						<offset>(0.7, 0.3, 0.3)</offset>
+						<layer>90</layer>
+					</dataWest>
+				</drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Lord of Change Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_LordOfChangeMutation</defName>
+        <label>Lord of Change mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>304</displayOrderInCategory>
+        <statFactors>
+            <VEF_CosmeticBodySize_Multiplier>2</VEF_CosmeticBodySize_Multiplier>
+        </statFactors>
+    </GeneDef>
+
+</Defs>

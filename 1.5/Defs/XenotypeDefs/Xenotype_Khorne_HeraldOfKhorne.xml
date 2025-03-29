@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+    <!-- Herald Of Khorne -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonHeraldOfKhorne</defName>
+        <label>Herald of Khorne</label>
+        <description>A Herald of Khorne is an elite form of Bloodletter, a Lesser Daemon of Khorne. Leading the cohorts of the Daemonic Blood Legions are the Heralds of Khorne, leering visions of damnation brought to life.
+
+Whether marching at the head of the Daemonic warriors they lead, or riding to war atop a Juggernaut, the Daemons of Khorne fight all the harder in their presence.</description>
+        <descriptionShort>A Herald of Khorne is an elite form of Bloodletter, a Lesser Daemon of Khorne. Leading the cohorts of the Daemonic Blood Legions are the Heralds of Khorne, leering visions of damnation brought to life.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_HeraldOfKhorneBody</li>
+            <li>BEWH_HeraldOfKhorneHead</li>
+            <li>BEWH_HeraldOfKhorneHorns</li>
+            <li>BEWH_HeraldOfKhorneTail</li>
+            <li>BEWH_HeraldOfKhorneMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

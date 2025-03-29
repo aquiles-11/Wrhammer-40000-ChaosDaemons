@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ChickenCore.Enlistment.FactionEnlistOptionsDef MayRequire="ludeon.rimworld.royalty">
+		<defName>ChaosUndividedEnlist</defName>
+		<minGoodwillRequrementToEnlist>70</minGoodwillRequrementToEnlist>
+		<enlistGoodwillGain>5</enlistGoodwillGain>
+		<enlistLetterTitleKey>GeneralEnlistLetterTitle</enlistLetterTitleKey>
+		<enlistButtonLabelKey>GeneralEnlistButtonLabel</enlistButtonLabelKey>
+		<enlistButtonDescKey>GeneralEnlistButtonDesc</enlistButtonDescKey>
+		<enlistedToHostileFactionKey>GeneralEnlistedToHostileFaction</enlistedToHostileFactionKey>
+		<enlistButtonIconTexPath>UI/Enlist</enlistButtonIconTexPath>
+		<enlistedSoundDef>Quest_Concluded</enlistedSoundDef>
+		<enlistedWithKey>GeneralEnlistedWithKey</enlistedWithKey>
+
+		<minRoyalTitle>Freeholder</minRoyalTitle>
+		<minRoyalTitleRequirementKey>TitleRequirementKey</minRoyalTitleRequirementKey>
+		<minFavorGainEnlistTitleKey>TitleRequirementKey</minFavorGainEnlistTitleKey>
+		<minFavorGainEnlistLabelKey>TitleRequirementKey</minFavorGainEnlistLabelKey>		
+		<favorIsEnabled>true</favorIsEnabled>		
+		<favorLabelKey>FavorLabel</favorLabelKey>		
+		<favorDescKey>FavorDesc</favorDescKey>		
+		<favorButtonIconTexPath>UI/Icons/RoyalFavor</favorButtonIconTexPath>		
+		<favorRange>5~10</favorRange>		
+		<favorPeriodDays>15</favorPeriodDays>	
+
+		<missionsAreEnabled>true</missionsAreEnabled>
+		<missionsLabelKey>GeneralMissionsLabel</missionsLabelKey>
+		<missionsDescKey>GeneralMissionsDesc</missionsDescKey>
+		<missionsButtonIconTexPath>UI/Mission</missionsButtonIconTexPath>
+		<missionsBackgroundMenuTexPath>UI/Empire_UI</missionsBackgroundMenuTexPath>
+		<missionsMenuAmbientSoundDef>RadioComms_Ambience</missionsMenuAmbientSoundDef>
+		<missionsMenuSelectQuestKey>GeneralMenuMissionsSelectQuest</missionsMenuSelectQuestKey>
+		<missionsMenuStartQuestKey>GeneralMenuMissionsStartQuest</missionsMenuStartQuestKey>
+		<missionsQuestCost>500</missionsQuestCost>
+		<missionsMenuStartQuestNoEnoughMoneyKey>GeneralNoEnoughMoney</missionsMenuStartQuestNoEnoughMoneyKey>
+
+		<salaryIsEnabled>true</salaryIsEnabled>
+		<salaryLabelKey>GeneralSalaryLabel</salaryLabelKey>
+		<salaryDescKey>GeneralSalaryDesc</salaryDescKey>
+		<salaryButtonIconTexPath>UI/GiftMode2</salaryButtonIconTexPath>
+		<salaryRange>600~800</salaryRange>
+		<salaryPeriodDays>15</salaryPeriodDays>
+
+	<!-- Faction flavor text  -->
+		<missionsMenuDescriptionKey>EmpireMenuMissionsDesc</missionsMenuDescriptionKey>
+		<turnInDescKey>EmpireTurnInDesc</turnInDescKey>
+		<turnInTraderNameKey>EmpireTurnInTraderName</turnInTraderNameKey>
+		<resignLetterLabelKey>EmpireResignLetterLabel</resignLetterLabelKey>		
+		<resignMenuTextKey>EmpireResignMenuText</resignMenuTextKey>		
+		<enlistLetterLabelKey>EmpireEnlistLetterLabel</enlistLetterLabelKey>		
+		<enlistRequrementsNotSatisfiedKey>EmpireEnlistRequrementsNotSatisfied</enlistRequrementsNotSatisfiedKey>
+
+
+		
+
+		<provisionOptions>
+			<li>
+				<provisionsLabelKey>GeneralProvisionsLabel</provisionsLabelKey>
+				<provisionsDescKey>EmpireProvisionsDesc</provisionsDescKey>
+				<provisionsButtonIconTexPath>Things/Item/Meal/SurvivalPack/SurvivalPack_a</provisionsButtonIconTexPath>
+				<provisions>
+					<li>
+						<thing>MealSurvivalPack</thing>
+						<amountRange>2</amountRange>
+					</li>
+					<li>
+						<thing>MedicineUltratech</thing>
+						<amountRange>1</amountRange>
+					</li>
+					<li>
+						<thing>MealLavish</thing>
+						<amountRange>1</amountRange>
+					</li>
+					<li MayRequire="oskarpotocki.vfe.empire">
+						<thing>VFEE_Aperitif</thing>
+						<amountRange>1</amountRange>
+					</li>
+				</provisions>
+				<provisionsRestockInDays>1</provisionsRestockInDays>
+			</li>
+
+			<li>
+				<provisionsLabelKey>EmpireProvisionsLabelBestowerIssue</provisionsLabelKey>
+				<provisionsDescKey>EmpireProvisionsDescBestowerIssue</provisionsDescKey>
+				<provisionsButtonIconTexPath>Things/Pawn/Humanlike/Apparel/Hood/Hood</provisionsButtonIconTexPath>
+				<provisions>
+					<li>
+						<thing>MeleeWeapon_PsyfocusStaff</thing>
+						<amountRange>1</amountRange>
+					</li>	
+					<li>
+						<thing>Apparel_RobeRoyal</thing>
+						<stuff>DevilstrandCloth</stuff>
+						<amountRange>1</amountRange>
+					</li>
+					<li>
+						<thing>Apparel_HatHood</thing>
+						<stuff>DevilstrandCloth</stuff>
+						<amountRange>1</amountRange>
+					</li>
+
+				</provisions>
+				<provisionsRestockInDays>60.00</provisionsRestockInDays>
+			</li>
+
+			<li>
+				<provisionsLabelKey>EmpireProvisionsLabelPrestigeIssue</provisionsLabelKey>
+				<provisionsDescKey>EmpireProvisionsDescPrestigeIssue</provisionsDescKey>
+				<provisionsButtonIconTexPath>Things/Pawn/Humanlike/Apparel/RoyalRobe/RoyalRobe</provisionsButtonIconTexPath>
+				<provisions>														
+					<li>
+						<thing>Apparel_VestRoyal</thing>
+						<stuff>DevilstrandCloth</stuff>
+						<amountRange>1</amountRange>
+					</li>
+					<li>
+						<thing>Apparel_ShirtRuffle</thing>
+						<stuff>DevilstrandCloth</stuff>
+						<amountRange>1</amountRange>
+					</li>
+					<li>
+						<thing>Apparel_Pants</thing>
+						<stuff>DevilstrandCloth</stuff>
+						<amountRange>1</amountRange>
+					</li>
+					<li>
+						<thing>Apparel_Coronet</thing>
+						<stuff>Steel</stuff>
+						<amountRange>1</amountRange>
+					</li>
+					<li>
+						<thing>Apparel_Cape</thing>
+						<stuff>DevilstrandCloth</stuff>
+						<amountRange>1</amountRange>
+					</li>
+				</provisions>
+				<provisionsRestockInDays>20.00</provisionsRestockInDays>
+			</li>
+			
+			<li>
+				<provisionsLabelKey>EmpireProvisionsLabelApparelIssue</provisionsLabelKey>
+				<provisionsDescKey>EmpireProvisionsDescApparelIssue</provisionsDescKey>
+				<provisionsButtonIconTexPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</provisionsButtonIconTexPath>
+				<provisions>
+					<li>
+						<thing>MeleeWeapon_LongSword</thing>
+						<stuff>Steel</stuff>
+						<amountRange>1</amountRange>
+					</li>										
+					<li>
+						<thing>Gun_AssaultRifle</thing>
+						<amountRange>1</amountRange>
+					</li>					
+					<li>
+						<thing>Apparel_ArmorRecon</thing>
+						<amountRange>1</amountRange>
+					</li>					
+					<li>
+						<thing>Apparel_Gunlink</thing>
+						<amountRange>1</amountRange>
+					</li>
+				</provisions>
+				<provisionsRestockInDays>30.00</provisionsRestockInDays>
+			</li>
+		</provisionOptions>
+
+		<storageIsEnabled>true</storageIsEnabled>
+		<storageLabelKey>GeneralStorageLabel</storageLabelKey>
+		<storageDescKey>GeneralStorageDesc</storageDescKey>
+		<storageButtonIconTexPath>UI/Designators/Open</storageButtonIconTexPath>
+
+		<recreationGainPerTick>0.0001</recreationGainPerTick>
+		<workOptions>
+			<li>
+				<workLabelKey>EmpirePartTimeJobLabel</workLabelKey>
+				<workDescKey>EmpirePartTimeJobDesc</workDescKey>
+				<workButtonIconTexPath>UI/ReelWork</workButtonIconTexPath>
+				<additionalRestFall>0.25</additionalRestFall>
+				<silverGainPerHour>8</silverGainPerHour>
+			</li>
+			<li>
+				<workLabelKey>EmpireHospitalLabel</workLabelKey>
+				<workDescKey>EmpireHospitalDesc</workDescKey>
+				<workButtonIconTexPath>Things/Item/Resource/Medicine/MedicineUltratech/MedicineUltratech_a</workButtonIconTexPath>
+				<additionalRestFall>0.25</additionalRestFall>
+				<tendCaravanMembersEveryTicks>600</tendCaravanMembersEveryTicks>
+				<medicinesToTend>
+					<li>MedicineUltratech</li>
+				</medicinesToTend>
+				<immunityGainSpeedMultiplier>2.25</immunityGainSpeedMultiplier>
+			</li>
+			<li>
+				<workLabelKey>GeneralMedicalTrainingLabel</workLabelKey>
+				<workDescKey>GeneralMedicalTrainingDesc</workDescKey>
+				<workButtonIconTexPath>UI/Commands/AsMedical</workButtonIconTexPath>
+				<experienceGainsPerHour>
+					<Medicine>700</Medicine>
+					<Social>600</Social>
+					<Intellectual>450</Intellectual>
+				</experienceGainsPerHour>
+				<additionalRestFall>0.25</additionalRestFall>
+			</li>
+			<li>
+				<workLabelKey>GeneralShootingTrainingLabel</workLabelKey>
+				<workDescKey>GeneralShootingTrainingDesc</workDescKey>
+				<workButtonIconTexPath>UI/Commands/Draft</workButtonIconTexPath>
+				<experienceGainsPerHour>
+					<Shooting>700</Shooting>
+					<Melee>625</Melee>
+				</experienceGainsPerHour>
+				<additionalRestFall>0.3</additionalRestFall>
+			</li>
+			<li>
+				<workLabelKey>GeneralSurvivalTrainingLabel</workLabelKey>
+				<workDescKey>GeneralSurvivalTrainingDesc</workDescKey>
+				<workButtonIconTexPath>Things/Building/Misc/Campfire_MenuIcon</workButtonIconTexPath>
+				<experienceGainsPerHour>
+					<Crafting>700</Crafting>
+					<Plants>650</Plants>
+					<Cooking>550</Cooking>
+					<Animals>650</Animals>
+					<Construction>550</Construction>
+				</experienceGainsPerHour>
+				<additionalRestFall>0.5</additionalRestFall>
+			</li>
+		</workOptions>
+
+		<turnInIsEnabled>true</turnInIsEnabled>
+		<turnInLabelKey>GeneralTurnInLabel</turnInLabelKey>
+		<turnInButtonIconTexPath>UI/TurnIn</turnInButtonIconTexPath>
+		<turnInRefreshSilverInDays>7</turnInRefreshSilverInDays>
+
+		<dropPodServiceIsEnabled>true</dropPodServiceIsEnabled>
+		<dropPodServiceLabelKey>GeneralDropPodServiceLabel</dropPodServiceLabelKey>
+		<dropPodServiceDescKey>GeneralDropPodServiceDesc</dropPodServiceDescKey>
+		<dropPodServiceButtonIconTexPath>Things/Special/DropPod</dropPodServiceButtonIconTexPath>
+		<dropPodServiceCost>1000</dropPodServiceCost>
+		<dropPodServiceCostRequirementKey>GeneralDropPodServiceRequirementDesc</dropPodServiceCostRequirementKey>
+
+		<resignGoodwillGain>-95</resignGoodwillGain>
+		<resignLetterTitleKey>GeneralResignLetterTitle</resignLetterTitleKey>
+		<resignButtonLabelKey>GeneralResignButtonLabel</resignButtonLabelKey>
+		<resignButtonDescKey>GeneralResignButtonDesc</resignButtonDescKey>
+		<resignButtonIconTexPath>UI/Resign</resignButtonIconTexPath>
+
+		<kickOutLetterTitleKey>GeneralKickOutLetterTitle</kickOutLetterTitleKey>
+		<kickOutLetterLabelKey>GeneralKickOutLabelTitle</kickOutLetterLabelKey>
+
+		<reinforcementsAreEnabled>false</reinforcementsAreEnabled>
+
+
+	</ChickenCore.Enlistment.FactionEnlistOptionsDef>
+
+</Defs>

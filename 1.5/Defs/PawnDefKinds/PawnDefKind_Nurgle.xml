@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Nurgle Base -->
+    <PawnKindDef ParentName="DaemonBasePawn" Name="NurgleDaemonBasePawn" Abstract="True">
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>ImperialFighter</li> <!-- Some custom demon backstory?-->
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <apparelColor>(65,75,0)</apparelColor>
+    </PawnKindDef>
+    <!-- Nurgling -->
+    <PawnKindDef ParentName="NurgleDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonNurgling</defName>
+        <label>Nurgling</label>
+        <combatPower>60</combatPower>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>3~7</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>3~7</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonNurgling>1</BEWH_ChaosDaemonNurgling>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+    <!-- Plaguebearer -->
+    <PawnKindDef ParentName="NurgleDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonPlaguebearer</defName>
+        <label>Plaguebearer</label>
+        <combatPower>150</combatPower>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~10</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>6~10</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonPlaguebearer>1</BEWH_ChaosDaemonPlaguebearer>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+    <!-- Great Unclean One -->
+    <PawnKindDef ParentName="NurgleDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonGreatUncleanOne</defName>
+        <label>Plaguebearer</label>
+        <combatPower>300</combatPower>
+        <factionLeader>true</factionLeader>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~13</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>8~13</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonGreatUncleanOne>1</BEWH_ChaosDaemonGreatUncleanOne>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+</Defs>

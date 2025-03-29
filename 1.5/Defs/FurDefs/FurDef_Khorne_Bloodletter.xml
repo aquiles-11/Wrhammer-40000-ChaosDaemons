@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FurDef>
+    <defName>BEWH_BloodletterBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Hulk>Things/Pawn/Humanlike/Khorne/Bloodletter/Bodies/BloodletterBody</Hulk>
+      <Male>Things/Pawn/Humanlike/Khorne/Bloodletter/Bodies/BloodletterBody</Male>
+      <Female>Things/Pawn/Humanlike/Khorne/Bloodletter/Bodies/BloodletterBody</Female>
+      <Fat>Things/Pawn/Humanlike/Khorne/Bloodletter/Bodies/BloodletterBody</Fat>
+      <Thin>Things/Pawn/Humanlike/Khorne/Bloodletter/Bodies/BloodletterBody</Thin>
+      <Child>Things/Pawn/Humanlike/Khorne/Bloodletter/Bodies/BloodletterBody</Child>
+      <Baby>Things/Pawn/Humanlike/Khorne/Bloodletter/Bodies/BloodletterBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

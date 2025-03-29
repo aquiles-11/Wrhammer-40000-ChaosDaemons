@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Nurgling -->
+    <!-- Nurgling Mutation-->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_NurglingMutation</defName>
+        <label>Nurgling Mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>141</displayOrderInCategory>
+        <statFactors>
+            <VEF_CosmeticBodySize_Multiplier>0.4</VEF_CosmeticBodySize_Multiplier>
+        </statFactors>
+    </GeneDef>
+
+</Defs>

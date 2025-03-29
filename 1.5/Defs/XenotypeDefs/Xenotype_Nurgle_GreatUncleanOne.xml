@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Great Unclean One -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonGreatUncleanOne</defName>
+        <label>Great Unclean One</label>
+        <description>A Great Unclean One, also known as a "'Plague Lord," a "Fly Master," and a "Stench Lord," is a grotesquely corpulent Greater Daemon of the Plague God Nurgle, the Chaos God of disease, death and decay. These loathsome Daemons are the harbingers of the lord of rot and ruin, and amongst Grandfather Nurgle's greatest servants, bearers of his most sacred plagues and poxes.
+
+Their forms are squat and mountainous, covered in rotting flesh and open sores that weep foul rivulets of pus. Hot ropes of intestines dribble out of huge tears in their enormous, bloated and distended bellies. This horrific girth is supported by two impossibly small and atrophied-looking legs, and their inordinately large, bulbous heads are crowned by enormous stag-like antlers.</description>
+        <descriptionShort>A Great Unclean One, also known as a "'Plague Lord," a "Fly Master," and a "Stench Lord," is a grotesquely corpulent Greater Daemon of the Plague God Nurgle, the Chaos God of disease, death and decay.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_GreatUncleanOneBodyOne</li>
+            <li>BEWH_GreatUncleanOneBodyTwo</li>
+            <li>BEWH_GreatUncleanOneBodyThree</li>
+            <li>BEWH_GreatUncleanOneTail</li>
+            <li>BEWH_GreatUncleanOneHeadOne</li>
+            <li>BEWH_GreatUncleanOneHeadTwo</li>
+            <li>BEWH_GreatUncleanOneHorns</li>
+            <li>BEWH_GreatUncleanOneMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

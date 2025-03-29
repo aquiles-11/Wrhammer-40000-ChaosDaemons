@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>BEWH_Cat_CG</defName>
+      <label>Chaos Guard</label>
+      <parent>Weapons</parent>
+    </ThingCategoryDef>
+	
+		<ThingCategoryDef>
+		  <defName>CG_Melee</defName>
+		  <label>melee weapons</label>
+		  <parent>BEWH_Cat_CG</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+		  <defName>CG_Ranged</defName>
+		  <label>ranged weapons</label>
+		  <parent>BEWH_Cat_CG</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+		  <defName>CG_Armor</defName>
+		  <label>armors</label>
+		  <parent>BEWH_Cat_CG</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+		  <defName>CG_Headgear</defName>
+		  <label>helmets</label>
+		  <parent>BEWH_Cat_CG</parent>
+		</ThingCategoryDef>
+
+</Defs>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Bloodletter -->
+    <!-- Bloodletter Body -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_BloodletterBody</defName>
+        <label>Bloodletter body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <bodyType>Hulk</bodyType>
+        <fur>BEWH_BloodletterBody</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+    <!-- Bloodletter Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterHead</defName>
+        <label>Bloodletter head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_BloodletterHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Bloodletter Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterHornsOne</defName>
+        <label>Bloodletter horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/Khorne/Bloodletter/HeadAttachments/Horns/BloodletterHorns1</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0, 0.5)</offset>
+                        <layer>30</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0.5)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.05, 0, 0.5)</offset>
+                        <layer>70</layer>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.05, 0, 0.5)</offset>
+                        <layer>70</layer>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Bloodletter Tail -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterTail</defName>
+        <label>Bloodletter tail</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/Khorne/Bloodletter/BodyAttachments/Tail/BloodletterTail</li>
+                </texPaths>
+                <colorType>Custom</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(-0.1, 0, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1, 0, 0.1)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0.1)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Bloodletter Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_BloodletterMutation</defName>
+        <label>Bloodletter mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <statFactors>
+            <VEF_CosmeticBodySize_Multiplier>1.2</VEF_CosmeticBodySize_Multiplier>
+        </statFactors>
+    </GeneDef>
+
+</Defs>

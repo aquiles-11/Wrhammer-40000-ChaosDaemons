@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Nurgling -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonNurgling</defName>
+        <label>Nurgling</label>
+        <description>???</description>
+        <descriptionShort>???</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_SharedNurgleBodyOne</li>
+            <li>BEWH_SharedNurgleBodyTwo</li>
+            <li>BEWH_SharedNurgleBodyThree</li>
+            <li>BEWH_GreatUncleanOneHeadOne</li>
+            <li>BEWH_GreatUncleanOneHeadTwo</li>
+            <li>BEWH_GreatUncleanOneHorns</li>
+            <li>BEWH_NurglingMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

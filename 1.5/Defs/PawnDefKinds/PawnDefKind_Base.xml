@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Base -->
+    <PawnKindDef Name="DaemonBasePawn" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>BEWH_ChaosFactionHidden</defaultFactionType>
+        <initialWillRange>5~50</initialWillRange>
+        <initialResistanceRange>5~50</initialResistanceRange>
+        <minGenerationAge>21</minGenerationAge>
+        <maxGenerationAge>7419</maxGenerationAge>
+        <itemQuality>Normal</itemQuality>
+        <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <apparelIgnoreSeasons>True</apparelIgnoreSeasons>
+        <apparelIgnorePollution>True</apparelIgnorePollution>
+        <gearHealthRange>
+            <min>1</min>
+            <max>1</max>
+        </gearHealthRange>
+    </PawnKindDef>
+
+    <PawnKindDef Name="CultistBasePawn" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>BEWH_ChaosUndivided</defaultFactionType>
+        <initialWillRange>5~50</initialWillRange>
+        <initialResistanceRange>5~50</initialResistanceRange>
+        <minGenerationAge>21</minGenerationAge>
+        <maxGenerationAge>70</maxGenerationAge>
+        <itemQuality>Normal</itemQuality>
+        <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <apparelIgnoreSeasons>True</apparelIgnoreSeasons>
+        <apparelIgnorePollution>True</apparelIgnorePollution>
+        <gearHealthRange>
+            <min>1</min>
+            <max>1</max>
+        </gearHealthRange>
+    </PawnKindDef>
+
+</Defs>

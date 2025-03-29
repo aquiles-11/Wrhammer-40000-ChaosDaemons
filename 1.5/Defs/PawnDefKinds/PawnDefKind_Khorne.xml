@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Khorne Base -->
+    <PawnKindDef ParentName="DaemonBasePawn" Name="KhorneDaemonBasePawn" Abstract="True">
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>ImperialFighter</li> <!-- Some custom demon backstory?-->
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <apparelColor>(110,0,0)</apparelColor>
+    </PawnKindDef>
+    <!-- Bloodletter -->
+    <PawnKindDef ParentName="KhorneDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonBloodletter</defName>
+        <label>Bloodletter</label>
+        <combatPower>150</combatPower>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~10</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>9~14</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonBloodletter>1</BEWH_ChaosDaemonBloodletter>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+    <!-- Bloodthirster -->
+    <PawnKindDef ParentName="KhorneDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonBloodthirster</defName>
+        <label>Bloodthirster</label>
+        <combatPower>300</combatPower>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~12</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>13~18</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonBloodthirster>1</BEWH_ChaosDaemonBloodthirster>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+    <!-- Herald Of Khorne -->
+    <PawnKindDef ParentName="KhorneDaemonBasePawn">
+        <defName>BEWH_ChaosDaemonHeraldOfKhorne</defName>
+        <label>Herald Of Khorne</label>
+        <combatPower>300</combatPower>
+        <factionLeader>true</factionLeader>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>8~12</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>13~18</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_ChaosDaemonHeraldOfKhorne>1</BEWH_ChaosDaemonHeraldOfKhorne>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+
+</Defs>

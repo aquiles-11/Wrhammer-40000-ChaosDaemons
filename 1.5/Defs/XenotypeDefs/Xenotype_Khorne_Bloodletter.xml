@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+    <!-- Bloodletter -->
+    <XenotypeDef ParentName="BEWH_ChaosDaemonBase">
+        <defName>BEWH_ChaosDaemonBloodletter</defName>
+        <label>Bloodletter</label>
+        <description>A Bloodletter, also known as a "Chosen of Khorne," a "Warmonger of Khorne," "Slaughter-kin", "Taker of Skulls," "Khorne's Chosen," the "Teeth of Death," and the "Crimson Death," is a Lesser Daemon (Khak'akamshy'y in the Dark Tongue) that serves as one of the eager Daemonic foot soldiers of the Chaos God Khorne's Blood Legions. As a host, they march as one, in formations with supernatural precision, but in battle, they try to outdo each other in ruthless acts of cruelty and savagery.
+
+The Daemonic hordes of Khorne are largely made up of ferocious Bloodletters. These Lesser Daemons are deadly warriors, many of whom are believed by the worshippers of Chaos to have been foremost amongst the Blood God's followers in mortal life and whose will is as implacable and blood-hungry as that of Khorne himself.</description>
+        <descriptionShort>A Bloodletter, also known as a "Chosen of Khorne," a "Warmonger of Khorne," "Slaughter-kin", "Taker of Skulls," "Khorne's Chosen," the "Teeth of Death," and the "Crimson Death," is a Lesser Daemon (Khak'akamshy'y in the Dark Tongue) that serves as one of the eager Daemonic foot soldiers of the Chaos God Khorne's Blood Legions. As a host, they march as one, in formations with supernatural precision, but in battle, they try to outdo each other in ruthless acts of cruelty and savagery.</descriptionShort>
+        <iconPath>Placeholder</iconPath>
+        <combatPowerFactor>1.5</combatPowerFactor>
+        <genes>
+            <li>BEWH_BloodletterBody</li>
+            <li>BEWH_BloodletterHead</li>
+            <li>BEWH_BloodletterHornsOne</li>
+            <li>BEWH_BloodletterTail</li>
+            <li>BEWH_BloodletterMutation</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

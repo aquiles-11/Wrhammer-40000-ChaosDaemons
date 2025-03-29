@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>BEWH_HeraldOfKhorneHead</defName>
+        <graphicPath>Things/Pawn/Humanlike/Khorne/HeraldOfKhorne/Heads/HeraldOfKhorneHead</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+        <requiredGenes>
+            <li>BEWH_HeraldOfKhorneHead</li>
+        </requiredGenes>
+        <selectionWeight>1000</selectionWeight>
+        <modExtensions>
+			<li Class="VFECore.HeadExtension">
+				<forcedHeadShader>CutoutComplex</forcedHeadShader>
+			</li>
+		</modExtensions>
+    </HeadTypeDef>
+
+</Defs>

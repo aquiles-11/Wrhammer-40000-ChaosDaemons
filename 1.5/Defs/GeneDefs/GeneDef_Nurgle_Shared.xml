@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Shared Nurgle Bodies -->
+    <!-- Shared Nurgle Body 1 -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_SharedNurgleBodyOne</defName>
+        <label>Nurgle fat body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>181</displayOrderInCategory>
+        <bodyType>Fat</bodyType>
+        <fur>BEWH_SharedNurgleBodyOne</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Shared Nurgle Body 2 -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_SharedNurgleBodyTwo</defName>
+        <label>Nurgle fat body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>182</displayOrderInCategory>
+        <bodyType>Fat</bodyType>
+        <fur>BEWH_SharedNurgleBodyTwo</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+    <!-- Shared Nurgle Body 3 -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_SharedNurgleBodyThree</defName>
+        <label>Nurgle fat body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>183</displayOrderInCategory>
+        <bodyType>Fat</bodyType>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+        <fur>BEWH_SharedNurgleBodyThree</fur>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <useSkinColorForFur>true</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Plaguebearer -->
+    <!-- Plaguebearer Body -->
+    <GeneDef ParentName="ChaosDaemonBody">
+        <defName>BEWH_PlaguebearerBody</defName>
+        <label>Plaguebearer body</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>161</displayOrderInCategory>
+        <bodyType>Standard</bodyType>
+        <fur>BEWH_PlaguebearerBody</fur>
+        <exclusionTags>
+            <li>Body</li>
+        </exclusionTags>
+    </GeneDef>
+    <!-- Plaguebearer Head -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerHead</defName>
+        <label>Plaguebearer head</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>162</displayOrderInCategory>
+        <forcedHeadTypes>
+            <li>BEWH_PlaguebearerHead</li>
+        </forcedHeadTypes>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+    </GeneDef>
+    <!-- Plaguebearer Horns 1 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerHornsOne</defName>
+        <label>Plaguebearer horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>163</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Nurgle/Plaguebearer/HeadAttachments/Horns/PlaguebearerHorns1</texPath>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <useSkinShader>false</useSkinShader>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Plaguebearer Horns 2 -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerHornsTwo</defName>
+        <label>Plaguebearer horns</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>164</displayOrderInCategory>
+        <exclusionTags>
+            <li>Horn</li>
+            <li>Horns</li>
+        </exclusionTags>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/Nurgle/Plaguebearer/HeadAttachments/Horns/PlaguebearerHorns2</texPath>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Head</parentTagDef>
+                <useSkinShader>false</useSkinShader>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+    <!-- Plaguebearer Mutation -->
+    <GeneDef ParentName="ChaosDaemonParent">
+        <defName>BEWH_PlaguebearerMutation</defName>
+        <label>Plaguebearer mutation</label>
+        <description>???</description>
+        <iconPath>Placeholder</iconPath>
+        <displayOrderInCategory>165</displayOrderInCategory>
+    </GeneDef>
+
+</Defs>

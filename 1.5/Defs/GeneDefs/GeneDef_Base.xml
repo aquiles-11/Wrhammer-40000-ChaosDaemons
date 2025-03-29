@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Gene Category -->
+
+    <GeneCategoryDef>
+        <defName>BEWH_ChaosDaemon</defName>
+        <label>chaos daemon</label>
+        <displayPriorityInXenotype>640</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <!-- Parent Gene -->
+
+    <GeneDef Name="ChaosDaemonParent" Abstract="True">
+        <displayCategory>BEWH_ChaosDaemon</displayCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <skinIsHairColor>false</skinIsHairColor>
+        <modExtensions>
+          <li Class="VanillaGenesExpanded.GeneExtension">
+              <hideGene>true</hideGene>
+              <dontColourFur>true</dontColourFur>
+              <furHidesBody>true</furHidesBody>
+          </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef ParentName="ChaosDaemonParent" Name="ChaosDaemonBody" Abstract="True">
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Fur</debugLabel>
+        <nodeClass>PawnRenderNode_Fur</nodeClass>
+        <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+        <baseLayer>5</baseLayer>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <colorType>Hair</colorType>
+        <parentTagDef>Body</parentTagDef>
+      </li>
+    </renderNodeProperties>
+    </GeneDef>
+
+
+
+</Defs>
